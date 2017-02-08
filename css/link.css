@@ -3,15 +3,17 @@ a {
     transition: .3s;
     -webkit-transform: scale(1);
     transform: scale(1);
+
 }
 
 a:link {
     color: #696969;
+    text-decoration: none;
 }
 
 a:visited {
     color: #808080;
-    text-decoration: underline;
+    text-decoration: none;
 }
 
 a:hover {
