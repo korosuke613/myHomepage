@@ -18,12 +18,32 @@
 	font-style: normal;
 }
 
+@font-face{ 
+	font-family: 'mplus-1-l'; /* お好きな名前にしましょう */
+	src: url('../fonts/mplus-1-light-sub.eot'); /* IE9以上用 */
+	src: url('../fonts/mplus-1-light-sub.eot?#iefix') format('embedded-opentype'), /* IE8以前用 */
+		url('../fonts/mplus-1-light-sub.woff') format('woff'), /* モダンブラウザ用 */
+		url('../fonts/mplus-1-light-sub.ttf') format('truetype'); /* iOS, Android用 */
+	font-weight: normal; /* 念の為指定しておきます */
+	font-style: normal;
+}
 
 body { 
-    font-family:'mplus-1-r';
+    font-family:'mplus-1c-r','mplus-1-l';
 }
 
 h1{
     font-family: 'Anton', sans-serif;
 }
 
+.sns {
+	display: inline-block;
+	transition: .3s;
+	-webkit-transform: scale(1);
+	transform: scale(1);
+}
+
+.sns:hover {
+	-webkit-transform: scale(1.1);
+	transform: scale(1.1);
+}
