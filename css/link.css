@@ -1,11 +1,27 @@
-.sns {
-	display: inline-block;
-	transition: .3s;
-	-webkit-transform: scale(1);
-	transform: scale(1);
+a {
+    display: inline-block;
+    transition: .3s;
+    -webkit-transform: scale(1);
+    transform: scale(1);
 }
 
-.sns:hover {
-	-webkit-transform: scale(1.1);
-	transform: scale(1.1);
+a:link {
+    color: #696969;
+}
+
+a:visited {
+    color: #808080;
+    text-decoration: underline;
+}
+
+a:hover {
+    color: #606060;
+    text-decoration: none;
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+a:active {
+    color: #fff;
+    text-decoration: none;
 }
