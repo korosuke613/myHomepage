@@ -27,3 +27,32 @@ a:active {
     color: #fff;
     text-decoration: none;
 }
+
+.footLink {
+    transition: .3s;
+    -webkit-transform: none;
+    transform: none;
+
+}
+
+.footLink:link {
+    color: #696969;
+    text-decoration: none;
+}
+
+.footLink:visited {
+    color: #808080;
+    text-decoration: none;
+}
+
+.footLink:hover {
+    color: #606060;
+    text-decoration: none;
+    -webkit-transform: scale(0.9);
+    transform: scale(0.9);
+}
+
+.footLink:active {
+    color: #fff;
+    text-decoration: none;
+}
