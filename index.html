@@ -1,15 +1,12 @@
 <!DOCTYPE html>
 <html lang="ja">
-
 <!-- 共通<head>タグ -->
-
 <head>
     <title>Korosuke613@miyazaki</title>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-
     <!-- Bootstrap -->
     <link href="/css/bootstrap.css" rel="stylesheet">
     <!-- このCSS -->
@@ -21,7 +18,6 @@
     <link href="css/font_change.css" rel="stylesheet">
     <link href="css/link.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Anton" rel="stylesheet">
-
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -29,22 +25,19 @@
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
 </head>
-
 <body>
     <!-- ヘッダー -->
+    <span itemscope itemtype="http://schema.org/Article">
     <header>
         <div class="container" style="margin-bottom:-35px;" id="top_jump">
             <div class="row">
                 <div class="jumbotron" style="background-color:#333333;color:#FFF">
-                    <h1 id="headTitle">Korosuke613<small style="color:#aaaab0">@miyazaki</small></h1>
-                    <h4>Futa HIRAKOBAのホームページ（作成中）</h4>
+                    <h1 itemprop="name" id="headTitle">Korosuke613<small style="color:#aaaab0">@miyazaki</small></h1>
+                    <h4 >Futa HIRAKOBAのホームページ（作成中）</h4>
                 </div>
             </div>
         </div>
     </header>
-
-
-
     <!-- 本文ブロック  -->
     <div class="container">
         <div class="row">
@@ -53,22 +46,22 @@
                     Profile
                 </h1>
                 <div class="row">
-                    <div class="col-sm-12 col-md-8">
+                    <div class="col-sm-12 col-md-8" itemprop="image" itemscope itemtype="https://schema.org/ImageObject">
                         <img src="images/myPhoto.jpg" class="img-responsive img-rounded" alt="ひらこばの写真">
+                        <meta itemprop="url" content="https://korosuke613.github.io/image/myPhoto.jpg">
+  <meta itemprop="width" content="800">
+  <meta itemprop="height" content="800">
                     </div>
                     <div class="col-sm-12 col-md-4">
-                        <h2>平木場風太<small>（写真真ん中）</small></h2>
-                        <p>
+                        <h2><span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">平木場風太</span></span><small>（写真真ん中）</small></h2>
+                        <p itemprop="articleBody">
                             21歳、学生。Webの勉強のためにこのサイトを作っています。出身は鹿児島。<br> ドライブ、カメラ、キャンプ、献血推進。
                             <br> 使用言語は、C, Java, HTML, PHP, javascript, ShellScriptなど（勉強中含む！）
                         </p>
-
-                        <p>平成29年2月9日(木)現在</p>
+                        <p><span itemprop="datePublished" content="2017-02-09">平成29年2月9日(木)現在</span></p>
                     </div>
                 </div>
-
                 <hr class="style-two">
-
                 <div class="row">
                     <div class="col-sm-6">
                         <h1>History</h1>
@@ -87,14 +80,12 @@
                         <a href="sources/gitless.pdf" onClick="ga('send', 'event', 'download', 'pdf', 'gitless.pdf')">[201701]チームで行うコーディング作業を容易にする方法</a><br>
                         
                     </div>
-
                     <div class="col-sm-6">
                         <h1>SNS</h1>
                         <ul class="list-inline">
                             <li><a href="https://github.com/korosuke613" target="_blank" onClick="ga('send', 'event', 'link', 'sns', 'Github')" class="sns">Github</a></li>
                             <li><a href="https://twitter.com/Shitimi_613" target="_blank" onClick="ga('send', 'event', 'link', 'sns', 'Twitter')" class="sns">Twitter</a></li>
                             <li><a href="https://www.facebook.com/futa.hirakoba.5" target="_blank" onClick="ga('send', 'event', 'link', 'sns', 'Facebook')" class="sns">Facebook</a></li>
-
                             <li><a href="https://www.instagram.com/kwlv613/" target="_blank" onClick="ga('send', 'event', 'link', 'sns', 'instagram')" class="sns">Instagram</a></li>
                         </ul>
                     </div>
@@ -124,13 +115,11 @@
                         </div>
                     </div>
                 </div>
-
                 <!-- 下部の空白 -->
                 <div style="margin-bottom:30px;"></div>
             </div>
         </div>
-    </div>
-
+    </div></span>
     <!-- フッター  -->
     <div id="footer">
         <div class="container">
@@ -149,7 +138,6 @@
             </div>
         </div>
     </div>
-
     <!-- Javascriptの読み込み  -->
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
@@ -157,7 +145,6 @@
     <script src="js/bootstrap.min.js"></script>
     <script src="js/lightbox.js"></script>
     <script src="/js/page_scroll.js"></script>
-
     <script>
         (function(i, s, o, g, r, a, m) {
             i['GoogleAnalyticsObject'] = r;
@@ -170,10 +157,8 @@
             a.src = g;
             m.parentNode.insertBefore(a, m)
         })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
-
         ga('create', 'UA-91531907-1', 'auto');
         ga('send', 'pageview');
     </script>
 </body>
-
 </html>
