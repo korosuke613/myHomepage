@@ -3,7 +3,6 @@ a {
     transition: .3s;
     -webkit-transform: scale(1);
     transform: scale(1);
-
 }
 
 a:link {
@@ -32,7 +31,6 @@ a:active {
     transition: .3s;
     -webkit-transform: none;
     transform: none;
-
 }
 
 .footLink:link {
@@ -55,4 +53,15 @@ a:active {
 .footLink:active {
     color: #fff;
     text-decoration: none;
+}
+
+@media screen and (min-width: 0px) and (max-width: 767px) {
+    a:hover {
+        -webkit-transform: scale(1.0);
+        transform: scale(1.0);
+    }
+    .footLink:hover {
+        -webkit-transform: scale(1.0);
+        transform: scale(1.0);
+    }
 }
