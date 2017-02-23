@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="ja">
 <!-- 共通<head>タグ -->
+
 <head>
     <title>Korosuke613@miyazaki</title>
     <meta charset="utf-8">
@@ -15,7 +16,7 @@
     <link href="/css/font-size.css" rel="stylesheet">
     <link href="css/lightbox.css" rel="stylesheet">
     <link href="css/hr.css" rel="stylesheet">
-    <link href="css/font_change.css" rel="stylesheet">
+    <link href="css/font_change.css" id="font_changes">
     <link href="css/link.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Anton" rel="stylesheet">
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
@@ -25,6 +26,7 @@
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
 </head>
+
 <body>
     <!-- ヘッダー -->
     <span itemscope itemtype="http://schema.org/Article">
@@ -54,73 +56,74 @@
                     </div>
                     <div class="col-sm-12 col-md-4">
                         <h2><span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">平木場風太</span></span><small>（写真真ん中）</small></h2>
-                        <p itemprop="articleBody">
-                            21歳、学生。Webの勉強のためにこのサイトを作っています。出身は鹿児島。<br> ドライブ、カメラ、キャンプ、献血推進。
-                            <br> 使用言語は、C, Java, HTML, PHP, javascript, ShellScriptなど（勉強中含む！）
-                        </p>
-                        <p><span itemprop="datePublished" content="2017-02-09">平成29年2月9日(木)現在</span></p>
-                    </div>
+    <p itemprop="articleBody">
+        21歳、学生。Webの勉強のためにこのサイトを作っています。出身は鹿児島。<br> ドライブ、カメラ、キャンプ、献血推進。
+        <br> 使用言語は、C, Java, HTML, PHP, javascript, ShellScriptなど（勉強中含む！）
+    </p>
+    <p><span itemprop="datePublished" content="2017-02-09">平成29年2月9日(木)現在</span></p>
+    </div>
+    </div>
+    <hr class="style-two">
+    <div class="row">
+        <div class="col-sm-6">
+            <h1>History</h1>
+            2011~2014: <a href="http://www.edu.pref.kagoshima.jp/sh/Kagoshima-T/" target="_blank" onClick="ga('send', 'event', 'link', 'other', 'Rokko')">鹿児島工業高校</a> 情報技術系<br> 2014~20??:
+            <a href="http://www.miyazaki-u.ac.jp/" target="_blank" onClick="ga('send', 'event', 'link', 'other', 'Miyadai')">宮崎大学</a> 情報システム工学科<br><br> 2015~2016: 宮崎大学国際交流宿舎 寮長<br> 2014~20??: 宮崎県学生献血推進協議会
+        </div>
+        <div class="col-sm-6">
+            <h1>PDFs</h1>
+            <a href="sources/uzu.pdf" onClick="ga('send', 'event', 'download', 'pdf', 'uzu.pdf')">[201308]渦電流とその利用</a><br>
+            <a href="sources/hirakoba.pdf" onClick="ga('send', 'event', 'download', 'pdf', 'hirakoba.pdf')">[201405]自己紹介パワポ</a><br>
+            <a href="sources/etrobo.pdf" onClick="ga('send', 'event', 'download', 'pdf', 'etrobo.pdf')">[201411]ETロボ</a><br>
+            <a href="sources/roma.pdf" onClick="ga('send', 'event', 'download', 'pdf', 'roma.pdf')">[201607]roman_num_trans(manual)</a><br>
+            <a href="sources/brexit.pdf" onClick="ga('send', 'event', 'download', 'pdf', 'brexit.pdf')">[201608]イギリスは何故EUを離脱するのか</a><br>
+            <a href="sources/ryouyaku.pdf" onClick="ga('send', 'event', 'download', 'pdf', 'ryouyaku.pdf')">[201610]宮崎大学国際交流宿舎における寮役制度</a>
+            <a href="sources/quickLaTeX.pdf" onClick="ga('send', 'event', 'download', 'pdf', 'quickLaTeX.pdf')">[201611]LaTeXコマンド集</a><br>
+            <a href="sources/gitless.pdf" onClick="ga('send', 'event', 'download', 'pdf', 'gitless.pdf')">[201701]チームで行うコーディング作業を容易にする方法</a><br>
+
+        </div>
+        <div class="col-sm-6">
+            <h1>SNS</h1>
+            <ul class="list-inline">
+                <li><a href="https://github.com/korosuke613" target="_blank" onClick="ga('send', 'event', 'link', 'sns', 'Github')" class="sns">Github</a></li>
+                <li><a href="http://qiita.com/Shitimi_613" target="_blank" onClick="ga('send', 'event', 'link', 'sns', 'Qiita')" class="sns">Qiita</a></li>
+                <li><a href="https://twitter.com/Shitimi_613" target="_blank" onClick="ga('send', 'event', 'link', 'sns', 'Twitter')" class="sns">Twitter</a></li>
+                <li><a href="https://www.facebook.com/futa.hirakoba.5" target="_blank" onClick="ga('send', 'event', 'link', 'sns', 'Facebook')" class="sns">Facebook</a></li>
+                <li><a href="https://www.instagram.com/kwlv613/" target="_blank" onClick="ga('send', 'event', 'link', 'sns', 'instagram')" class="sns">Instagram</a></li>
+            </ul>
+        </div>
+        <div class="col-sm-12">
+            <h1>Photos</h1>
+            <div class="row">
+                <div class="col-xs-3">
+                    <a href="images/aoshima.jpg" data-lightbox="image" data-title="サンメッセ日南">
+                        <img src="images/aoshima_mini.jpg" class="img-responsive img-rounded" alt="">
+                    </a>
                 </div>
-                <hr class="style-two">
-                <div class="row">
-                    <div class="col-sm-6">
-                        <h1>History</h1>
-                        2011~2014: <a href="http://www.edu.pref.kagoshima.jp/sh/Kagoshima-T/" target="_blank" onClick="ga('send', 'event', 'link', 'other', 'Rokko')">鹿児島工業高校</a> 情報技術系<br> 2014~20??:
-                        <a href="http://www.miyazaki-u.ac.jp/" target="_blank" onClick="ga('send', 'event', 'link', 'other', 'Miyadai')">宮崎大学</a> 情報システム工学科<br><br> 2015~2016: 宮崎大学国際交流宿舎 寮長<br> 2014~20??: 宮崎県学生献血推進協議会
-                    </div>
-                    <div class="col-sm-6">
-                        <h1>PDFs</h1>
-                        <a href="sources/uzu.pdf" onClick="ga('send', 'event', 'download', 'pdf', 'uzu.pdf')">[201308]渦電流とその利用</a><br>
-                        <a href="sources/hirakoba.pdf" onClick="ga('send', 'event', 'download', 'pdf', 'hirakoba.pdf')">[201405]自己紹介パワポ</a><br>
-                        <a href="sources/etrobo.pdf" onClick="ga('send', 'event', 'download', 'pdf', 'etrobo.pdf')">[201411]ETロボ</a><br>
-                        <a href="sources/roma.pdf" onClick="ga('send', 'event', 'download', 'pdf', 'roma.pdf')">[201607]roman_num_trans(manual)</a><br>
-                        <a href="sources/brexit.pdf" onClick="ga('send', 'event', 'download', 'pdf', 'brexit.pdf')">[201608]イギリスは何故EUを離脱するのか</a><br>
-                        <a href="sources/ryouyaku.pdf" onClick="ga('send', 'event', 'download', 'pdf', 'ryouyaku.pdf')">[201610]宮崎大学国際交流宿舎における寮役制度</a>
-                        <a href="sources/quickLaTeX.pdf" onClick="ga('send', 'event', 'download', 'pdf', 'quickLaTeX.pdf')">[201611]LaTeXコマンド集</a><br>
-                        <a href="sources/gitless.pdf" onClick="ga('send', 'event', 'download', 'pdf', 'gitless.pdf')">[201701]チームで行うコーディング作業を容易にする方法</a><br>
-                        
-                    </div>
-                    <div class="col-sm-6">
-                        <h1>SNS</h1>
-                        <ul class="list-inline">
-                            <li><a href="https://github.com/korosuke613" target="_blank" onClick="ga('send', 'event', 'link', 'sns', 'Github')" class="sns">Github</a></li>
-                            <li><a href="http://qiita.com/Shitimi_613" target="_blank" onClick="ga('send', 'event', 'link', 'sns', 'Qiita')" class="sns">Qiita</a></li>
-                            <li><a href="https://twitter.com/Shitimi_613" target="_blank" onClick="ga('send', 'event', 'link', 'sns', 'Twitter')" class="sns">Twitter</a></li>
-                            <li><a href="https://www.facebook.com/futa.hirakoba.5" target="_blank" onClick="ga('send', 'event', 'link', 'sns', 'Facebook')" class="sns">Facebook</a></li>
-                            <li><a href="https://www.instagram.com/kwlv613/" target="_blank" onClick="ga('send', 'event', 'link', 'sns', 'instagram')" class="sns">Instagram</a></li>
-                        </ul>
-                    </div>
-                    <div class="col-sm-12">
-                        <h1>Photos</h1>
-                        <div class="row">
-                            <div class="col-xs-3">
-                                <a href="images/aoshima.jpg" data-lightbox="image" data-title="サンメッセ日南">
-                                    <img src="images/aoshima_mini.jpg" class="img-responsive img-rounded" alt="">
-                                </a>
-                            </div>
-                            <div class="col-xs-3">
-                                <a href="images/fushimi.jpg" data-lightbox="image" data-title="伏見稲荷神社">
-                                    <img src="images/fushimi_mini.jpg" class="img-responsive img-rounded" alt="">
-                                </a>
-                            </div>
-                            <div class="col-xs-3">
-                                <a href="images/takatiho.jpg" data-lightbox="image" data-title="高千穂峡">
-                                    <img src="images/takatiho_mini.jpg" class="img-responsive img-rounded" alt="">
-                                </a>
-                            </div>
-                            <div class="col-xs-3">
-                                <a href="images/kirishima.jpg" data-lightbox="image" data-title="霧島">
-                                    <img src="images/kirishima_mini.jpg" class="img-responsive img-rounded" alt="">
-                                </a>
-                            </div>
-                        </div>
-                    </div>
+                <div class="col-xs-3">
+                    <a href="images/fushimi.jpg" data-lightbox="image" data-title="伏見稲荷神社">
+                        <img src="images/fushimi_mini.jpg" class="img-responsive img-rounded" alt="">
+                    </a>
                 </div>
-                <!-- 下部の空白 -->
-                <div style="margin-bottom:30px;"></div>
+                <div class="col-xs-3">
+                    <a href="images/takatiho.jpg" data-lightbox="image" data-title="高千穂峡">
+                        <img src="images/takatiho_mini.jpg" class="img-responsive img-rounded" alt="">
+                    </a>
+                </div>
+                <div class="col-xs-3">
+                    <a href="images/kirishima.jpg" data-lightbox="image" data-title="霧島">
+                        <img src="images/kirishima_mini.jpg" class="img-responsive img-rounded" alt="">
+                    </a>
+                </div>
             </div>
         </div>
-    </div></span>
+    </div>
+    <!-- 下部の空白 -->
+    <div style="margin-bottom:30px;"></div>
+    </div>
+    </div>
+    </div>
+    </span>
     <!-- フッター  -->
     <div id="footer">
         <div class="container">
@@ -129,8 +132,7 @@
                     <a href="#top_jump" style="color:#333333">▲PAGE TOP</a>
                     <br>
                     <div class="text-center">
-                        source: <a href="https://github.com/korosuke613/korosuke613.github.io" target="_blank" onClick="ga('send', 'event', 'link', 'source', 'korosuke613.github.io')" class="footLink">korosuke613.github.io</a><br> 
-                        fonts: <a href="https://fonts.google.com/specimen/Anton" target="_blank" onClick="ga('send', 'event', 'link', 'fonts', 'Anton')" class="footLink">Anton</a>, <a href="http://mplus-fonts.osdn.jp/" target="_blank" onClick="ga('send', 'event', 'link', 'fonts', 'mplus')" class="footLink">M+ FONTS</a>
+                        source: <a href="https://github.com/korosuke613/korosuke613.github.io" target="_blank" onClick="ga('send', 'event', 'link', 'source', 'korosuke613.github.io')" class="footLink">korosuke613.github.io</a><br> fonts: <a href="https://fonts.google.com/specimen/Anton" target="_blank" onClick="ga('send', 'event', 'link', 'fonts', 'Anton')" class="footLink">Anton</a>, <a href="http://mplus-fonts.osdn.jp/" target="_blank" onClick="ga('send', 'event', 'link', 'fonts', 'mplus')" class="footLink">M+ FONTS</a>
                     </div>
                     <br>
                     <div style="font-family: 'Anton',sans-serif;" class="text-right">
@@ -147,6 +149,7 @@
     <script src="js/bootstrap.min.js"></script>
     <script src="js/lightbox.js"></script>
     <script src="/js/page_scroll.js"></script>
+    <script src="/js/load_css.js"></script>
     <script>
         (function(i, s, o, g, r, a, m) {
             i['GoogleAnalyticsObject'] = r;
@@ -161,6 +164,8 @@
         })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
         ga('create', 'UA-91531907-1', 'auto');
         ga('send', 'pageview');
+
     </script>
 </body>
+
 </html>
