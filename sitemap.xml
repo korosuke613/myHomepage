@@ -5,56 +5,62 @@
 <url>
   <loc>https://korosuke613.github.io/</loc>
   <priority>1.0</priority>
-  <lastmod>2017-02-09T04:41:43+09:00</lastmod>
-  <changefreq>hourly</changefreq>
+  <lastmod>2017-03-13T02:28:03+09:00</lastmod>
+  <changefreq>weekly</changefreq>
 </url>
 <url>
-  <loc>https://korosuke613.github.io/sources/uzu.pdf</loc>
+  <loc>https://korosuke613.github.io/writes.html</loc>
   <priority>0.8</priority>
-  <lastmod>2017-02-09T04:41:43+09:00</lastmod>
-  <changefreq>hourly</changefreq>
-</url>
-<url>
-  <loc>https://korosuke613.github.io/sources/hirakoba.pdf</loc>
-  <priority>0.8</priority>
-  <lastmod>2017-02-09T04:41:43+09:00</lastmod>
-  <changefreq>hourly</changefreq>
-</url>
-<url>
-  <loc>https://korosuke613.github.io/sources/etrobo.pdf</loc>
-  <priority>0.8</priority>
-  <lastmod>2017-02-09T04:41:43+09:00</lastmod>
-  <changefreq>hourly</changefreq>
-</url>
-<url>
-  <loc>https://korosuke613.github.io/sources/roma.pdf</loc>
-  <priority>0.8</priority>
-  <lastmod>2017-02-09T04:41:43+09:00</lastmod>
-  <changefreq>hourly</changefreq>
-</url>
-<url>
-  <loc>https://korosuke613.github.io/sources/brexit.pdf</loc>
-  <priority>0.8</priority>
-  <lastmod>2017-02-09T04:41:43+09:00</lastmod>
-  <changefreq>hourly</changefreq>
-</url>
-<url>
-  <loc>https://korosuke613.github.io/sources/ryouyaku.pdf</loc>
-  <priority>0.8</priority>
-  <lastmod>2017-02-09T04:41:43+09:00</lastmod>
-  <changefreq>hourly</changefreq>
-</url>
-<url>
-  <loc>https://korosuke613.github.io/sources/quickLaTeX.pdf</loc>
-  <priority>0.8</priority>
-  <lastmod>2017-02-09T04:41:43+09:00</lastmod>
-  <changefreq>hourly</changefreq>
+  <lastmod>2017-03-13T02:28:03+09:00</lastmod>
+  <changefreq>weekly</changefreq>
 </url>
 <url>
   <loc>https://korosuke613.github.io/sources/gitless.pdf</loc>
-  <priority>0.8</priority>
-  <lastmod>2017-02-09T04:41:43+09:00</lastmod>
-  <changefreq>hourly</changefreq>
+  <priority>0.7</priority>
+  <lastmod>2017-03-13T02:28:03+09:00</lastmod>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>https://korosuke613.github.io/sources/quickLaTeX.pdf</loc>
+  <priority>0.7</priority>
+  <lastmod>2017-03-13T02:28:03+09:00</lastmod>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>https://korosuke613.github.io/sources/ryouyaku.pdf</loc>
+  <priority>0.7</priority>
+  <lastmod>2017-03-13T02:28:03+09:00</lastmod>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>https://korosuke613.github.io/sources/brexit.pdf</loc>
+  <priority>0.7</priority>
+  <lastmod>2017-03-13T02:28:03+09:00</lastmod>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>https://korosuke613.github.io/sources/roma.pdf</loc>
+  <priority>0.7</priority>
+  <lastmod>2017-03-13T02:28:03+09:00</lastmod>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>https://korosuke613.github.io/sources/etrobo.pdf</loc>
+  <priority>0.7</priority>
+  <lastmod>2017-03-13T02:28:03+09:00</lastmod>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>https://korosuke613.github.io/sources/hirakoba.pdf</loc>
+  <priority>0.7</priority>
+  <lastmod>2017-03-13T02:28:03+09:00</lastmod>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>https://korosuke613.github.io/sources/uzu.pdf</loc>
+  <priority>0.7</priority>
+  <lastmod>2017-03-13T02:28:03+09:00</lastmod>
+  <changefreq>weekly</changefreq>
 </url>
 
 </urlset>
