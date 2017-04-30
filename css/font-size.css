@@ -1,65 +1,78 @@
 /* レスポンシブのフォントサイズ指定 */
 
-@media screen and (min-width: 0px) and (max-width : 479px){
+@media screen and (min-width: 0px) and (max-width: 479px) {
     * {
-        font-size:16px;
+        font-size: 16px;
     }
-    h1,h2 {
+    h1,
+    h2 {
         font-size: 1.5em;
     }
-    h3,h4 {
+    h3,
+    h4 {
         font-size: 1.1em;
     }
-    p, .panel-title, .form-control {
+    p,
+    .panel-title,
+    .form-control {
         font-size: 1em;
     }
-    p.story  {
+    p.story {
         font-size: 1.0em;
     }
-    .copyright{
+    .copyright {
         font-size: 0.7em;
     }
-    #headTitle{
+    #headTitle {
         font-size: 2.5em;
     }
+    #photoname {
+        font-size: 0.75em;
+    }
 }
 
-@media screen and (min-width: 480px) and (max-width : 767px){
+@media screen and (min-width: 480px) and (max-width: 767px) {
     * {
-        font-size:17px;
+        font-size: 17px;
     }
-    .copyright{
-        font-size:14px;
+    .copyright {
+        font-size: 14px;
     }
-    p.story  {
-        font-size:14px;
+    p.story {
+        font-size: 14px;
         line-height: 1.8;
     }
-    #headTitle{
+    #headTitle {
         font-size: 3.15em;
     }
-
+    #photoname {
+        font-size: 1em;
+    }
 }
 
-@media screen and (min-width : 768px) {
+@media screen and (min-width: 768px) {
     * {
-        font-size:18px;
+        font-size: 18px;
     }
-    p, .panel-title, .form-control {
+    p,
+    .panel-title,
+    .form-control {
         font-size: 1.em;
     }
-    li{
+    li {
         font-size: 0.9em;
     }
-    .copyright{
-        font-size:18px;
+    .copyright {
+        font-size: 18px;
     }
-    p.story  {
-        font-size:18px;
+    p.story {
+        font-size: 18px;
         line-height: 1.8;
     }
-    #headTitle{
+    #headTitle {
         font-size: 3.8em;
     }
-
+    #photoname {
+        font-size: 1em;
+    }
 }
