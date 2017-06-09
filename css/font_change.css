@@ -1,37 +1,50 @@
-@font-face{ 
-	font-family: 'mplus-1c-r'; /* お好きな名前にしましょう */
-	src: url('../fonts/mplus-1c-regular-sub.eot'); /* IE9以上用 */
-	src: url('../fonts/mplus-1c-regular-sub.eot?#iefix') format('embedded-opentype'), /* IE8以前用 */
-		url('../fonts/mplus-1c-regular-sub.woff') format('woff'), /* モダンブラウザ用 */
-		url('../fonts/mplus-1c-regular-sub.ttf') format('truetype'); /* iOS, Android用 */
-	font-weight: normal; /* 念の為指定しておきます */
-	font-style: normal;
+@font-face {
+    font-family: 'mplus-1c-r';
+    /* お好きな名前にしましょう */
+    src: url('../fonts/mplus-1c-regular-sub.eot');
+    /* IE9以上用 */
+    src: url('../fonts/mplus-1c-regular-sub.eot?#iefix') format('embedded-opentype'), /* IE8以前用 */
+    url('../fonts/mplus-1c-regular-sub.woff') format('woff'), /* モダンブラウザ用 */
+    url('../fonts/mplus-1c-regular-sub.ttf') format('truetype');
+    /* iOS, Android用 */
+    font-weight: normal;
+    /* 念の為指定しておきます */
+    font-style: normal;
 }
 
-@font-face{ 
-	font-family: 'mplus-1-r'; /* お好きな名前にしましょう */
-	src: url('../fonts/mplus-1-regular-sub.eot'); /* IE9以上用 */
-	src: url('../fonts/mplus-1-regular-sub.eot?#iefix') format('embedded-opentype'), /* IE8以前用 */
-		url('../fonts/mplus-1-regular-sub.woff') format('woff'), /* モダンブラウザ用 */
-		url('../fonts/mplus-1-regular-sub.ttf') format('truetype'); /* iOS, Android用 */
-	font-weight: normal; /* 念の為指定しておきます */
-	font-style: normal;
+@font-face {
+    font-family: 'mplus-1-r';
+    /* お好きな名前にしましょう */
+    src: url('../fonts/mplus-1-regular-sub.eot');
+    /* IE9以上用 */
+    src: url('../fonts/mplus-1-regular-sub.eot?#iefix') format('embedded-opentype'), /* IE8以前用 */
+    url('../fonts/mplus-1-regular-sub.woff') format('woff'), /* モダンブラウザ用 */
+    url('../fonts/mplus-1-regular-sub.ttf') format('truetype');
+    /* iOS, Android用 */
+    font-weight: normal;
+    /* 念の為指定しておきます */
+    font-style: normal;
 }
 
-@font-face{ 
-	font-family: 'mplus-1-l'; /* お好きな名前にしましょう */
-	src: url('../fonts/mplus-1-light-sub.eot'); /* IE9以上用 */
-	src: url('../fonts/mplus-1-light-sub.eot?#iefix') format('embedded-opentype'), /* IE8以前用 */
-		url('../fonts/mplus-1-light-sub.woff') format('woff'), /* モダンブラウザ用 */
-		url('../fonts/mplus-1-light-sub.ttf') format('truetype'); /* iOS, Android用 */
-	font-weight: normal; /* 念の為指定しておきます */
-	font-style: normal;
+@font-face {
+    font-family: 'mplus-1-l';
+    /* お好きな名前にしましょう */
+    src: url('../fonts/mplus-1-light-sub.eot');
+    /* IE9以上用 */
+    src: url('../fonts/mplus-1-light-sub.eot?#iefix') format('embedded-opentype'), /* IE8以前用 */
+    url('../fonts/mplus-1-light-sub.woff') format('woff'), /* モダンブラウザ用 */
+    url('../fonts/mplus-1-light-sub.ttf') format('truetype');
+    /* iOS, Android用 */
+    font-weight: normal;
+    /* 念の為指定しておきます */
+    font-style: normal;
 }
 
-body { 
-    font-family:'mplus-1c-r','mplus-1-l';
+body {
+    font-family: 'mplus-1c-r', 'mplus-1-l';
 }
 
-h1{
+h1,
+h2 {
     font-family: 'Anton', sans-serif;
 }
