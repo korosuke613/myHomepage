@@ -65,3 +65,8 @@ a:active {
         transform: scale(1.0);
     }
 }
+
+.row-eq-height {
+    display: flex;
+    flex-wrap: wrap;
+}
