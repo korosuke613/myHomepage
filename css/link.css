@@ -55,6 +55,34 @@ a:active {
     text-decoration: none;
 }
 
+.dorm {
+    transition: none;
+    -webkit-transform: none;
+    transform: none;
+}
+
+.dorm:link {
+    color: #696969;
+    text-decoration: none;
+}
+
+.dorm:visited {
+    color: #696969;
+    text-decoration: none;
+}
+
+.dorm:hover {
+    color: #606060;
+    text-decoration: none;
+    -webkit-transform: none;
+    transform: none;
+}
+
+.dorm:active {
+    color: #fff;
+    text-decoration: none;
+}
+
 @media screen and (min-width: 0px) and (max-width: 767px) {
     a:hover {
         -webkit-transform: scale(1.0);
