@@ -95,6 +95,8 @@ a:active {
 }
 
 .row-eq-height {
+    display: -webkit-flex;
+    /* Safari */
     display: flex;
     flex-wrap: wrap;
 }
