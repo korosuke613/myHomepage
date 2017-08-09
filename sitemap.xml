@@ -1,102 +1,108 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 
-    <!--  created with free sitemap generation system www.sitemapxml.jp  -->
-    <url>
-        <loc>https://korosuke613.github.io/</loc>
-        <priority>1.0</priority>
-        <lastmod>2017-07-12T04:07:25+09:00</lastmod>
-        <changefreq>monthly</changefreq>
-    </url>
-    <url>
-        <loc>https://korosuke613.github.io/writing.html</loc>
-        <priority>0.8</priority>
-        <lastmod>2017-07-12T04:07:25+09:00</lastmod>
-        <changefreq>monthly</changefreq>
-    </url>
-    <url>
-        <loc>https://korosuke613.github.io/dormitory.html</loc>
-        <priority>0.8</priority>
-        <lastmod>2017-07-12T04:07:25+09:00</lastmod>
-        <changefreq>monthly</changefreq>
-    </url>
-    <url>
-        <loc>https://korosuke613.github.io/sources/amazons.pdf</loc>
-        <priority>0.7</priority>
-        <lastmod>2017-07-12T04:07:25+09:00</lastmod>
-        <changefreq>monthly</changefreq>
-    </url>
-    <url>
-        <loc>https://korosuke613.github.io/sources/freePresen1.pdf</loc>
-        <priority>0.7</priority>
-        <lastmod>2017-07-12T04:07:25+09:00</lastmod>
-        <changefreq>monthly</changefreq>
-    </url>
-    <url>
-        <loc>https://korosuke613.github.io/sources/gitless.pdf</loc>
-        <priority>0.7</priority>
-        <lastmod>2017-07-12T04:07:25+09:00</lastmod>
-        <changefreq>monthly</changefreq>
-    </url>
-    <url>
-        <loc>https://korosuke613.github.io/sources/quickLaTeX.pdf</loc>
-        <priority>0.7</priority>
-        <lastmod>2017-07-12T04:07:25+09:00</lastmod>
-        <changefreq>monthly</changefreq>
-    </url>
-    <url>
-        <loc>https://korosuke613.github.io/sources/ryouyaku.pdf</loc>
-        <priority>0.7</priority>
-        <lastmod>2017-07-12T04:07:25+09:00</lastmod>
-        <changefreq>monthly</changefreq>
-    </url>
-    <url>
-        <loc>https://korosuke613.github.io/sources/brexit.pdf</loc>
-        <priority>0.7</priority>
-        <lastmod>2017-07-12T04:07:25+09:00</lastmod>
-        <changefreq>monthly</changefreq>
-    </url>
-    <url>
-        <loc>https://korosuke613.github.io/sources/roma.pdf</loc>
-        <priority>0.7</priority>
-        <lastmod>2017-07-12T04:07:25+09:00</lastmod>
-        <changefreq>monthly</changefreq>
-    </url>
-    <url>
-        <loc>https://korosuke613.github.io/sources/etrobo.pdf</loc>
-        <priority>0.7</priority>
-        <lastmod>2017-07-12T04:07:25+09:00</lastmod>
-        <changefreq>monthly</changefreq>
-    </url>
-    <url>
-        <loc>https://korosuke613.github.io/sources/hirakoba.pdf</loc>
-        <priority>0.7</priority>
-        <lastmod>2017-07-12T04:07:25+09:00</lastmod>
-        <changefreq>monthly</changefreq>
-    </url>
-    <url>
-        <loc>https://korosuke613.github.io/sources/uzu.pdf</loc>
-        <priority>0.7</priority>
-        <lastmod>2017-07-12T04:07:25+09:00</lastmod>
-        <changefreq>monthly</changefreq>
-    </url>
-    <url>
-        <loc>https://korosuke613.github.io/sources/narou_ryouyaku.pdf</loc>
-        <priority>0.7</priority>
-        <lastmod>2017-07-12T04:07:25+09:00</lastmod>
-        <changefreq>monthly</changefreq>
-    </url>
-    <url>
-        <loc>https://korosuke613.github.io/sources/kouhosei_yotei.pdf</loc>
-        <priority>0.7</priority>
-        <lastmod>2017-07-12T04:07:25+09:00</lastmod>
-        <changefreq>monthly</changefreq>
-    </url>
-    <url>
-        <loc>https://korosuke613.github.io/sources/bihin_shinsei.pdf</loc>
-        <priority>0.7</priority>
-        <lastmod>2017-07-12T04:07:25+09:00</lastmod>
-        <changefreq>monthly</changefreq>
-    </url>
+<!--  created with free sitemap generation system www.sitemapxml.jp  --> 
+<url>
+  <loc>https://korosuke613.github.io/</loc>
+  <priority>1.0</priority>
+  <lastmod>2017-08-09T01:07:39+09:00</lastmod>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>https://korosuke613.github.io/dormitory_introduction.html</loc>
+  <priority>0.8</priority>
+  <lastmod>2017-08-09T01:07:39+09:00</lastmod>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>https://korosuke613.github.io/dormitory.html</loc>
+  <priority>0.8</priority>
+  <lastmod>2017-08-09T01:07:39+09:00</lastmod>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>https://korosuke613.github.io/writing.html</loc>
+  <priority>0.8</priority>
+  <lastmod>2017-08-09T01:07:39+09:00</lastmod>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>https://korosuke613.github.io/sources/narou_ryouyaku.pdf</loc>
+  <priority>0.7</priority>
+  <lastmod>2017-08-09T01:07:39+09:00</lastmod>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>https://korosuke613.github.io/sources/ryouyaku.pdf</loc>
+  <priority>0.7</priority>
+  <lastmod>2017-08-09T01:07:39+09:00</lastmod>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>https://korosuke613.github.io/sources/kouhosei_yotei.pdf</loc>
+  <priority>0.7</priority>
+  <lastmod>2017-08-09T01:07:39+09:00</lastmod>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>https://korosuke613.github.io/sources/bihin_shinsei.pdf</loc>
+  <priority>0.7</priority>
+  <lastmod>2017-08-09T01:07:39+09:00</lastmod>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>https://korosuke613.github.io/sources/amazons.pdf</loc>
+  <priority>0.7</priority>
+  <lastmod>2017-08-09T01:07:39+09:00</lastmod>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>https://korosuke613.github.io/sources/freePresen1.pdf</loc>
+  <priority>0.7</priority>
+  <lastmod>2017-08-09T01:07:39+09:00</lastmod>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>https://korosuke613.github.io/sources/gitless.pdf</loc>
+  <priority>0.7</priority>
+  <lastmod>2017-08-09T01:07:39+09:00</lastmod>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>https://korosuke613.github.io/sources/quickLaTeX.pdf</loc>
+  <priority>0.7</priority>
+  <lastmod>2017-08-09T01:07:39+09:00</lastmod>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>https://korosuke613.github.io/sources/brexit.pdf</loc>
+  <priority>0.7</priority>
+  <lastmod>2017-08-09T01:07:39+09:00</lastmod>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>https://korosuke613.github.io/sources/roma.pdf</loc>
+  <priority>0.7</priority>
+  <lastmod>2017-08-09T01:07:39+09:00</lastmod>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>https://korosuke613.github.io/sources/etrobo.pdf</loc>
+  <priority>0.7</priority>
+  <lastmod>2017-08-09T01:07:39+09:00</lastmod>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>https://korosuke613.github.io/sources/hirakoba.pdf</loc>
+  <priority>0.7</priority>
+  <lastmod>2017-08-09T01:07:39+09:00</lastmod>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>https://korosuke613.github.io/sources/uzu.pdf</loc>
+  <priority>0.7</priority>
+  <lastmod>2017-08-09T01:07:39+09:00</lastmod>
+  <changefreq>monthly</changefreq>
+</url>
 
 </urlset>
