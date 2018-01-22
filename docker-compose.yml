@@ -1,0 +1,11 @@
+# 参考）docker の nginx イメージの設定ファイルを眺めながら、独自ページを表示します。
+# $ docker-compose up -d
+
+version: '3'
+services:
+  nginx:
+    image: nginx:alpine
+    ports:
+      - "80:80"
+    volumes:
+      - .:/usr/share/nginx/html
