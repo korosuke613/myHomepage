@@ -3,7 +3,6 @@
     <h1>Profile</h1>
     <div class="row">
       <div class="col-sm-12 col-md-8">
-        <img src="images/myPhoto.jpg" class="img-responsive img-rounded" alt="ひらこばの写真">
       </div>
       <div class="col-sm-12 col-md-4">
         <h2>
@@ -60,5 +59,8 @@
 
 
 <script>
-export default {};
+import MyPhoto from "@/assets"
+export default {
+
+};
 </script>
