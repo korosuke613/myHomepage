@@ -1,4 +1,5 @@
 export default {
+    srcDir: 'client/',
     modules: [
         '@nuxtjs/google-adsense',
         '@nuxtjs/google-analytics',
