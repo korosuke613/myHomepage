@@ -15,7 +15,7 @@ import {items} from "@/assets/json/DocumentsData.js";
 export default {
   data() {
     return {
-      items: items
+      items: items.slice(0, 5)
     };
   }
 };

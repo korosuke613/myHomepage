@@ -41,7 +41,6 @@ export default {
         '@/assets/css/menu.css',
         '@/assets/css/font-size.css',
         '@/assets/css/lightbox.css',
-        '@/assets/css/hr.css',
         '@/assets/css/font_change.css',
         '@/assets/css/link.css',
     ],

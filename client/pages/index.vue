@@ -4,7 +4,6 @@
     <div class="row">
       <div class="col-xs-12" style="background:#ebebeb;height: 100%;">
         <Profile/>
-        <hr class="style-two">
         <div class="row">
           <div class="col-sm-6">
             <History/>
@@ -12,19 +11,22 @@
           <div class="col-sm-6">
             <Link/>
           </div>
+        </div>
+        <hr>
+        <div class="row">
           <div class="col-sm-6">
             <Activity/>
           </div>
           <div class="col-sm-6">
             <Document/>
           </div>
-          <div class="col-sm-12">
-            <Photo/>
-          </div>
         </div>
-        <!-- 下部の空白 -->
-        <div style="margin-bottom:30px;"></div>
+        <div class="col-sm-12">
+          <Photo/>
+        </div>
       </div>
+      <!-- 下部の空白 -->
+      <div style="margin-bottom:30px;"></div>
     </div>
   </div>
 </template>
