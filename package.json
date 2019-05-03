@@ -4,7 +4,8 @@
     "generate": "DEPLOY_ENV=GH_PAGES nuxt generate --spa",
     "dev": "nuxt --spa",
     "deploy": "gh-pages -d dist -r https://github.com/TakaShinoda/beeenowiki",
-    "deploy:local": "gh-pages -d dist -t"
+    "deploy:local": "gh-pages -d dist -t",
+    "dev-debug": "node --inspect-brk=9229 node_modules/nuxt/bin/nuxt"
   },
   "devDependencies": {
     "@nuxtjs/google-adsense": "^1.1.3",
