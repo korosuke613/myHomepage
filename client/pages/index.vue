@@ -7,6 +7,12 @@
         <hr class="style-two">
         <div class="row">
           <div class="col-sm-6">
+            <History/>
+          </div>
+          <div class="col-sm-6">
+            <Link/>
+          </div>
+          <div class="col-sm-6">
             <Activity/>
           </div>
           <div class="col-sm-6">
