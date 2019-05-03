@@ -59,7 +59,6 @@
 
 
 <script>
-import MyPhoto from "@/assets"
 export default {
 
 };

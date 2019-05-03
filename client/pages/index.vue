@@ -24,12 +24,12 @@
 </template>
 
 <script>
-import History from "../molcules/History.vue";
-import Link from "../molcules/Link.vue";
-import Activity from "../molcules/Activity.vue";
-import Document from "../molcules/Document.vue";
-import Photo from "../molcules/Photo.vue";
-import Profile from "../molcules/Profile.vue";
+import History from "@/components/History.vue";
+import Link from "@/components/Link.vue";
+import Activity from "@/components/Activity.vue";
+import Document from "@/components/Document.vue";
+import Photo from "@/components/Photo.vue";
+import Profile from "@/components/Profile.vue";
 export default {
   layout: "default",
   components: {

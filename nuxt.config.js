@@ -10,10 +10,6 @@ export default {
     'google-adsense': {
         id: 'ca-pub-7246355771451460'
     },
-    dir: {
-        layouts: 'components/layouts',
-        pages: 'components/pages',
-    },
     head: {
         title: 'Korosuke613@miyazaki',
         titleTemplate: '%s - Korosuke613@miyazaki',
@@ -40,13 +36,13 @@ export default {
         ],
     },
     css: [
-        'assets/css/bootstrap.css',
-        'assets/css/bootstrap-xxs-1.0.2.css',
-        'assets/css/menu.css',
-        'assets/css/font-size.css',
-        'assets/css/lightbox.css',
-        'assets/css/hr.css',
-        'assets/css/font_change.css',
-        'assets/css/link.css',
+        '@/assets/css/bootstrap.css',
+        '@/assets/css/bootstrap-xxs-1.0.2.css',
+        '@/assets/css/menu.css',
+        '@/assets/css/font-size.css',
+        '@/assets/css/lightbox.css',
+        '@/assets/css/hr.css',
+        '@/assets/css/font_change.css',
+        '@/assets/css/link.css',
     ],
 }
