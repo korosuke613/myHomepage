@@ -1,7 +1,11 @@
 export default {
     modules: [
-        '@nuxtjs/google-adsense'
+        '@nuxtjs/google-adsense',
+        '@nuxtjs/google-analytics',
     ],
+    googleAnalytics: {
+        id: 'UA-91531907-1'
+    },
     'google-adsense': {
         id: 'ca-pub-7246355771451460'
     },
