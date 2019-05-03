@@ -1,12 +1,19 @@
-<header>
-    <div class="container" style="margin-bottom:-35px;" id="top_jump">
-        <div class="row">
-            <div class="jumbotron" style="background-color:#333333;color:#FFF">
-                <a href="/index.html">
-                    <h1 itemprop="name" id="headTitle">Korosuke613<small style="color:#aaaab0">@miyazaki</small></h1>
-                </a>
-                <h4>ひらこば ふうたのホームページ</h4>
-            </div>
-        </div>
+<template>
+  <div class="container" style="margin-bottom:-35px;" id="top_jump">
+    <div class="row">
+      <div class="jumbotron" style="background-color:#333333;color:#FFF">
+        <a href="/index.html">
+          <h1 itemprop="name" id="headTitle">
+            Korosuke613
+            <small style="color:#aaaab0">@miyazaki</small>
+          </h1>
+        </a>
+        <h4>ひらこば ふうたのホームページ</h4>
+      </div>
     </div>
-</header>
+  </div>
+</template>
+
+<script>
+export default {}
+</script>

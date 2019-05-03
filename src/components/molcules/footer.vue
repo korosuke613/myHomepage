@@ -1,4 +1,4 @@
-<div id="footer">
+<template>
     <div class="container">
         <div class="row">
             <div class="col-xs-12" style="background:#AAA;height:auto;">
@@ -27,4 +27,9 @@
             </div>
         </div>
     </div>
-</div>
+</template>
+
+
+<script>
+export default {}
+</script>
