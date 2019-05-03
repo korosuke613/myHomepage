@@ -1,6 +1,10 @@
 export default {
     modules: [
+        '@nuxtjs/google-adsense'
     ],
+    'google-adsense': {
+        id: 'ca-pub-7246355771451460'
+    },
     dir: {
         layouts: 'src/components/layouts',
         pages: 'src/components/pages',
@@ -17,7 +21,23 @@ export default {
             //{ hid: 'og:image:width', property: 'og:image:width', content: '1029' },
             //{ hid: 'og:image:height', property: 'og:image:height', content: '1239' },
             { hid: 'description', name: 'description', content: 'ひらこば ふうたのホームページ' },
-        ]
+        ],
+        script: [
+            { src: 'https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js' }
+        ],
+        link: [
+            { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css?family=Anton' },
+            { rel: 'stylesheet', href: 'https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css' }
+        ],
     },
-    ...routerBase
+    css: [
+        'src/assets/css/bootstrap.css',
+        'src/assets/css/bootstrap-xxs-1.0.2.css',
+        'src/assets/css/menu.css',
+        'src/assets/css/font-size.css',
+        'src/assets/css/lightbox.css',
+        'src/assets/css/hr.css',
+        'src/assets/css/font_change.css',
+        'src/assets/css/link.css',
+    ],
 }

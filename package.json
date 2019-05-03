@@ -1,5 +1,13 @@
 {
+  "scripts": {
+    "build": "DEPLOY_ENV=GH_PAGES nuxt build --spa",
+    "generate": "DEPLOY_ENV=GH_PAGES nuxt generate --spa",
+    "dev": "nuxt --spa",
+    "deploy": "gh-pages -d dist -r https://github.com/TakaShinoda/beeenowiki",
+    "deploy:local": "gh-pages -d dist -t"
+  },
   "devDependencies": {
+    "@nuxtjs/google-adsense": "^1.1.3",
     "nuxt": "^2.6.3"
   }
 }
