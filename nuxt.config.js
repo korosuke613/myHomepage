@@ -10,8 +10,8 @@ export default {
         id: 'ca-pub-7246355771451460'
     },
     dir: {
-        layouts: 'src/components/layouts',
-        pages: 'src/components/pages',
+        layouts: 'components/layouts',
+        pages: 'components/pages',
     },
     head: {
         title: 'Korosuke613@miyazaki',
@@ -27,7 +27,11 @@ export default {
             { hid: 'description', name: 'description', content: 'ひらこば ふうたのホームページ' },
         ],
         script: [
-            { src: 'https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js' }
+            { src: 'https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js' },
+            { src: "/js/bootstrap.min.js" },
+            { src: "/js/lightbox.js" },
+            { src: "/js/page_scroll.js" },
+            { src: "/js/load_css.js" }
         ],
         link: [
             { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css?family=Anton' },
@@ -35,13 +39,13 @@ export default {
         ],
     },
     css: [
-        'src/assets/css/bootstrap.css',
-        'src/assets/css/bootstrap-xxs-1.0.2.css',
-        'src/assets/css/menu.css',
-        'src/assets/css/font-size.css',
-        'src/assets/css/lightbox.css',
-        'src/assets/css/hr.css',
-        'src/assets/css/font_change.css',
-        'src/assets/css/link.css',
+        'assets/css/bootstrap.css',
+        'assets/css/bootstrap-xxs-1.0.2.css',
+        'assets/css/menu.css',
+        'assets/css/font-size.css',
+        'assets/css/lightbox.css',
+        'assets/css/hr.css',
+        'assets/css/font_change.css',
+        'assets/css/link.css',
     ],
 }
