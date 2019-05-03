@@ -1,8 +1,6 @@
 <template>
-  <!-- 本文ブロック  -->
-  <div class="container">
     <div class="row">
-      <div class="col-xs-12" style="background:#ebebeb;height: 100%;">
+      <div class="col-xs-12">
         <Profile/>
         <div class="row">
           <div class="col-sm-6">
@@ -20,15 +18,12 @@
           <div class="col-sm-6">
             <Document/>
           </div>
-        </div>
-        <div class="col-sm-12">
-          <Photo/>
+          <div class="col-sm-12">
+            <Photo/>
+          </div>
         </div>
       </div>
-      <!-- 下部の空白 -->
-      <div style="margin-bottom:30px;"></div>
     </div>
-  </div>
 </template>
 
 <script>

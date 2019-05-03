@@ -7,11 +7,14 @@
         {{item.title}}
       </a>
     </div>
+    <div align="right">
+      <router-link to="/activity">more</router-link>
+    </div>
   </div>
 </template>
 
 <script>
-import {items} from "@/assets/json/ActivityData.js";
+import { items } from "@/assets/json/ActivityData.js";
 export default {
   data() {
     return {

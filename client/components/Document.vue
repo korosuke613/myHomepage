@@ -7,11 +7,13 @@
         {{item.title}}
       </a>
     </div>
+    <div align="right">
+      <router-link to="/document">more</router-link>
+    </div>
   </div>
 </template>
 <script>
-
-import {items} from "@/assets/json/DocumentsData.js";
+import { items } from "@/assets/json/DocumentsData.js";
 export default {
   data() {
     return {
