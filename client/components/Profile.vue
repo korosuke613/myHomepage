@@ -3,6 +3,7 @@
     <h1>Profile</h1>
     <div class="row">
       <div class="col-sm-12 col-md-8">
+        <myPhoto />
       </div>
       <div class="col-sm-12 col-md-4">
         <h2>
@@ -59,7 +60,10 @@
 
 
 <script>
+import myPhoto from "./atoms/myPhoto.vue";
 export default {
-
+  components: {
+    myPhoto
+  }
 };
 </script>
