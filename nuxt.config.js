@@ -3,7 +3,13 @@ export default {
     modules: [
         '@nuxtjs/google-adsense',
         '@nuxtjs/google-analytics',
+        '@nuxtjs/sitemap'
     ],
+    sitemap: {
+        hostname: 'https://korosuke613.github.io',
+        exclude: [
+        ]
+    },
     googleAnalytics: {
         id: 'UA-91531907-1'
     },
