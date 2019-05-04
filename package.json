@@ -1,8 +1,8 @@
 {
   "scripts": {
-    "build": "DEPLOY_ENV=GH_PAGES nuxt build --spa",
-    "generate": "DEPLOY_ENV=GH_PAGES nuxt generate --spa",
-    "dev": "nuxt --spa",
+    "build": "DEPLOY_ENV=GH_PAGES nuxt build",
+    "generate": "DEPLOY_ENV=GH_PAGES nuxt generate",
+    "dev": "nuxt",
     "deploy": "gh-pages -d dist -r https://github.com/TakaShinoda/beeenowiki",
     "deploy:local": "gh-pages -d dist -t",
     "dev-debug": "node --inspect-brk=9229 node_modules/nuxt/bin/nuxt"
