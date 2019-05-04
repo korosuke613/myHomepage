@@ -8,7 +8,7 @@
       </a>
     </div>
     <div align="right">
-      <router-link to="/activity">more</router-link>
+      <router-link to="/activity">more activity</router-link>
     </div>
   </div>
 </template>
