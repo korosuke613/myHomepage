@@ -13,7 +13,7 @@
                 </script>
                 <br>
                 <div class="text-center">
-                    source: <a href="https://github.com/korosuke613/korosuke613.github.io" target="_blank" onClick="ga('send', 'event', 'link', 'source', 'korosuke613.github.io')"
+                    source: <a href="https://github.com/korosuke613/myHomepage" target="_blank" onClick="ga('send', 'event', 'link', 'source', 'korosuke613.github.io')"
                         class="footLink">korosuke613.github.io</a><br> fonts: <a href="https://fonts.google.com/specimen/Anton"
                         target="_blank" onClick="ga('send', 'event', 'link', 'fonts', 'Anton')" class="footLink">Anton</a>,
                     <a href="http://mplus-fonts.osdn.jp/" target="_blank" onClick="ga('send', 'event', 'link', 'fonts', 'mplus')"
