@@ -41,7 +41,7 @@ export default {
         script: [
             { src: 'https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js', defer: true },
             { src: "/js/bootstrap.min.js", defer: true },
-            { src: "/js/lightbox.js", defer: true },
+            { src: "/js/lightbox.min.js", defer: true },
             { src: "/js/page_scroll.js", defer: true },
             { src: "/js/load_css.js", defer: true }
         ],
@@ -55,7 +55,7 @@ export default {
         '@/assets/css/bootstrap-xxs-1.0.2.css',
         '@/assets/css/menu.css',
         '@/assets/css/font-size.css',
-        '@/assets/css/lightbox.css',
+        '@/assets/css/lightbox.min.css',
         '@/assets/css/font_change.css',
         '@/assets/css/link.css',
     ],
