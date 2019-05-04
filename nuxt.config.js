@@ -20,6 +20,11 @@ export default {
     'google-adsense': {
         id: 'ca-pub-7246355771451460'
     },
+    manifest: {
+        name: "Korosuke613@miyazaki",
+        short_name: "K613",
+        lang: 'ja'
+    },
     head: {
         title: 'Korosuke613@miyazaki',
         titleTemplate: '%s - Korosuke613@miyazaki',
