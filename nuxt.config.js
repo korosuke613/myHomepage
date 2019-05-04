@@ -16,6 +16,9 @@ export default {
         'render:route': (url, page) => {
             page.html = modifyHtml(page.html)
         },
+        'generate:page': (page) => {
+            //page.html = modifyHtml(page.html)
+        },
     },
     srcDir: 'client/',
     modules: [
