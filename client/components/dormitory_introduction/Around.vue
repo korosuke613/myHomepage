@@ -3,13 +3,13 @@
     <h2>周辺施設 🏬</h2>
     <div class="col-md-8 col-xs-12">
       <a
-        href="@/assets/images/dormitory/map.jpg"
+        :href="items[0].href"
         data-lightbox="image"
         data-title="周辺地図"
         onClick="ga('send', 'event', 'photo', 'photo', 'map')"
         class="photo dorm"
       >
-        <img src="@/assets/images/dormitory/map.jpg" class="img-responsive img-rounded" alt="周辺地図">
+        <img :src="items[0].mini" class="img-responsive img-rounded" alt="周辺地図">
       </a>
       <br>
     </div>
@@ -25,25 +25,33 @@
       <div class="row">
         <div class="col-md-6 col-xs-6">
           <a
-            href="@/assets/images/dormitory/parking2.jpg"
+            :href="items[1].href"
             data-lightbox="image"
             data-title="駐輪場"
             onClick="ga('send', 'event', 'photo', 'photo', 'parking2')"
             class="photo dorm"
           >
-            <img src="@/assets/images/dormitory/parking2.jpg" class="img-responsive img-rounded" alt="駐輪場">駐輪場
+            <img
+              :src="items[1].mini"
+              class="img-responsive img-rounded"
+              alt="駐輪場"
+            >駐輪場
           </a>
           <br>
         </div>
         <div class="col-md-6 col-xs-6">
           <a
-            href="@/assets/images/dormitory/parking.jpg"
+            :href="items[2].href"
             data-lightbox="image"
             data-title="駐車場"
             onClick="ga('send', 'event', 'photo', 'photo', 'parking')"
             class="photo dorm"
           >
-            <img src="@/assets/images/dormitory/parking.jpg" class="img-responsive img-rounded" alt="駐車場">駐車場
+            <img
+              :src="items[2].mini"
+              class="img-responsive img-rounded"
+              alt="駐車場"
+            >駐車場
           </a>
           <br>
         </div>
@@ -51,3 +59,26 @@
     </div>
   </div>
 </template>
+
+<script>
+export default {
+  data() {
+    return {
+      items: [
+        {
+          href: require("@/assets/images/dormitory/map.jpg"),
+          mini: require("@/assets/images/dormitory/map.jpg")
+        },
+        {
+          href: require("@/assets/images/dormitory/parking2.jpg"),
+          mini: require("@/assets/images/dormitory/parking2.jpg")
+        },
+        {
+          href: require("@/assets/images/dormitory/parking.jpg"),
+          mini: require("@/assets/images/dormitory/parking.jpg")
+        }
+      ]
+    };
+  }
+};
+</script>

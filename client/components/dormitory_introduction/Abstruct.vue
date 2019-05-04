@@ -8,15 +8,34 @@
       </div>
       <div class="col-sm-7 col-xs-12">
         <a
-          href="@/assets/images/dormitory/dormitory.jpg"
+          :href="items[0].href"
           data-lightbox="image"
           data-title="国寮正面"
           onClick="ga('send', 'event', 'photo', 'photo', 'dormitory')"
           class="photo dorm"
         >
-          <img src="@/assets/images/dormitory/dormitory.jpg" class="img-responsive img-rounded" alt="国寮正面">
+          <img
+            :src="items[0].mini"
+            class="img-responsive img-rounded"
+            alt="国寮正面"
+          >
         </a>
       </div>
     </div>
   </div>
 </template>
+
+<script>
+export default {
+  data() {
+    return {
+      items: [
+        {
+          href: require("@/assets/images/dormitory/dormitory.jpg"),
+          mini: require("@/assets/images/dormitory/dormitory.jpg")
+        }
+      ]
+    };
+  }
+};
+</script>

@@ -6,35 +6,35 @@
         <div class="row">
           <div class="col-sm-4 col-xs-4">
             <a
-              href="@/assets/images/dormitory/room1.jpg"
+              :href="items[0].href"
               data-lightbox="image"
               data-title="居室1"
               onClick="ga('send', 'event', 'photo', 'photo', 'room1')"
               class="photo dorm"
             >
-              <img src="@/assets/images/dormitory/room1.jpg" class="img-responsive img-rounded" alt="居室1">
+              <img :src="items[0].mini" class="img-responsive img-rounded" alt="居室1">
             </a>
           </div>
           <div class="col-sm-4 col-xs-4">
             <a
-              href="@/assets/images/dormitory/room2.jpg"
+              :href="items[1].href"
               data-lightbox="image"
               data-title="居室2"
               onClick="ga('send', 'event', 'photo', 'photo', 'room2')"
               class="photo dorm"
             >
-              <img src="@/assets/images/dormitory/room2.jpg" class="img-responsive img-rounded" alt="居室2">
+              <img :src="items[1].mini" class="img-responsive img-rounded" alt="居室2">
             </a>
           </div>
           <div class="col-sm-4 col-xs-4">
             <a
-              href="@/assets/images/dormitory/toile.jpg"
+              :href="items[2].href"
               data-lightbox="image"
               data-title="トイレ"
               onClick="ga('send', 'event', 'photo', 'photo', 'toile')"
               class="photo dorm"
             >
-              <img src="@/assets/images/dormitory/toile.jpg" class="img-responsive img-rounded" alt="トイレ">
+              <img :src="items[2].mini" class="img-responsive img-rounded" alt="トイレ">
             </a>
           </div>
         </div>
@@ -48,3 +48,27 @@
     </div>
   </div>
 </template>
+
+
+<script>
+export default {
+  data() {
+    return {
+      items: [
+        {
+          href: require("@/assets/images/dormitory/room1.jpg"),
+          mini: require("@/assets/images/dormitory/room1.jpg")
+        },
+        {
+          href: require("@/assets/images/dormitory/room2.jpg"),
+          mini: require("@/assets/images/dormitory/room2.jpg")
+        },
+        {
+          href: require("@/assets/images/dormitory/toile.jpg"),
+          mini: require("@/assets/images/dormitory/toile.jpg")
+        }
+      ]
+    };
+  }
+};
+</script>

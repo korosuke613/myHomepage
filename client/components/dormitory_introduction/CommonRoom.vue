@@ -8,13 +8,13 @@
         <div class="row">
           <div class="col-sm-6 col-xs-12">
             <a
-              href="@/assets/images/dormitory/hosyoku.jpg"
+              :href="items[0].href"
               data-lightbox="image"
               data-title="補食室"
               onClick="ga('send', 'event', 'photo', 'photo', 'hosyoku')"
               class="photo dorm"
             >
-              <img src="@/assets/images/dormitory/hosyoku.jpg" class="img-responsive img-rounded" alt="補食室">
+              <img :src="items[0].mini" class="img-responsive img-rounded" alt="補食室">
             </a>
           </div>
           <div class="col-sm-6 col-xs-12">
@@ -29,13 +29,13 @@
         <div class="row">
           <div class="col-sm-6 col-xs-12">
             <a
-              href="@/assets/images/dormitory/kitchen.jpg"
+              :href="items[1].href"
               data-lightbox="image"
               data-title="キッチン"
               onClick="ga('send', 'event', 'photo', 'photo', 'kitchen')"
               class="photo dorm"
             >
-              <img src="@/assets/images/dormitory/kitchen.jpg" class="img-responsive img-rounded" alt="キッチン">
+              <img :src="items[1].mini" class="img-responsive img-rounded" alt="キッチン">
             </a>
           </div>
           <div class="col-sm-6 col-xs-12">
@@ -55,13 +55,13 @@
         <div class="row">
           <div class="col-sm-6 col-xs-12">
             <a
-              href="@/assets/images/dormitory/danwa.jpg"
+              :href="items[2].href"
               data-lightbox="image"
               data-title="談話室"
               onClick="ga('send', 'event', 'photo', 'photo', 'danwa')"
               class="photo dorm"
             >
-              <img src="@/assets/images/dormitory/danwa.jpg" class="img-responsive img-rounded" alt="談話室">
+              <img :src="items[2].mini" class="img-responsive img-rounded" alt="談話室">
             </a>
           </div>
           <div class="col-sm-6 col-xs-12">
@@ -75,13 +75,13 @@
         <div class="row">
           <div class="col-sm-6 col-xs-12">
             <a
-              href="@/assets/images/dormitory/sentaku.jpg"
+              :href="items[3].href"
               data-lightbox="image"
               data-title="洗濯室"
               onClick="ga('send', 'event', 'photo', 'photo', 'sentaku')"
               class="photo dorm"
             >
-              <img src="@/assets/images/dormitory/sentaku.jpg" class="img-responsive img-rounded" alt="洗濯室">
+              <img :src="items[3].mini" class="img-responsive img-rounded" alt="洗濯室">
             </a>
           </div>
           <div class="col-sm-6 col-xs-12">
@@ -95,43 +95,35 @@
         <div class="row">
           <div class="col-sm-4 col-xs-4">
             <a
-              href="@/assets/images/dormitory/huroba.jpg"
+              :href="items[4].href"
               data-lightbox="image"
               data-title="風呂場の廊下"
               onClick="ga('send', 'event', 'photo', 'photo', 'huroba')"
               class="photo dorm"
             >
-              <img
-                src="@/assets/images/dormitory/huroba.jpg"
-                class="img-responsive img-rounded"
-                alt="風呂場の廊下"
-              >
+              <img :src="items[4].mini" class="img-responsive img-rounded" alt="風呂場の廊下">
             </a>
           </div>
           <div class="col-sm-4 col-xs-4">
             <a
-              href="@/assets/images/dormitory/shower.jpg"
+              :href="items[5].href"
               data-lightbox="image"
               data-title="風呂場のシャワー室"
               onClick="ga('send', 'event', 'photo', 'photo', 'shower')"
               class="photo dorm"
             >
-              <img
-                src="@/assets/images/dormitory/shower.jpg"
-                class="img-responsive img-rounded"
-                alt="風呂場のシャワー室"
-              >
+              <img :src="items[5].mini" class="img-responsive img-rounded" alt="風呂場のシャワー室">
             </a>
           </div>
           <div class="col-sm-4 col-xs-4">
             <a
-              href="@/assets/images/dormitory/bath.jpg"
+              :href="items[6].href"
               data-lightbox="image"
               data-title="風呂場の浴室"
               onClick="ga('send', 'event', 'photo', 'photo', 'bath')"
               class="photo dorm"
             >
-              <img src="@/assets/images/dormitory/bath.jpg" class="img-responsive img-rounded" alt="風呂場の浴室">
+              <img :src="items[6].mini" class="img-responsive img-rounded" alt="風呂場の浴室">
             </a>
           </div>
           <div class="col-sm-12 col-xs-12">
@@ -142,3 +134,43 @@
     </div>
   </div>
 </template>
+
+
+<script>
+export default {
+  data() {
+    return {
+      items: [
+        {
+          href: require("@/assets/images/dormitory/hosyoku.jpg"),
+          mini: require("@/assets/images/dormitory/hosyoku.jpg")
+        },
+        {
+          href: require("@/assets/images/dormitory/kitchen.jpg"),
+          mini: require("@/assets/images/dormitory/kitchen.jpg")
+        },
+        {
+          href: require("@/assets/images/dormitory/danwa.jpg"),
+          mini: require("@/assets/images/dormitory/danwa.jpg")
+        },
+        {
+          href: require("@/assets/images/dormitory/sentaku.jpg"),
+          mini: require("@/assets/images/dormitory/sentaku.jpg")
+        },
+        {
+          href: require("@/assets/images/dormitory/huroba.jpg"),
+          mini: require("@/assets/images/dormitory/huroba.jpg")
+        },
+        {
+          href: require("@/assets/images/dormitory/shower.jpg"),
+          mini: require("@/assets/images/dormitory/shower.jpg")
+        },
+        {
+          href: require("@/assets/images/dormitory/bath.jpg"),
+          mini: require("@/assets/images/dormitory/bath.jpg")
+        }
+      ]
+    };
+  }
+};
+</script>
