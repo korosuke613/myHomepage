@@ -89,25 +89,25 @@ export const items = [
         title: "gitをシンプルでわかりやすくするツールGitlessの紹介[和訳]"
     },
     {
-        href: "sources/gitless.pdf",
+        href: "https://www.dropbox.com/s/genaioy1u26t6oq/gitless%28%E6%97%A5%E6%9C%AC%E8%AA%9E%E8%A8%B3%29.pdf?dl=0",
         ga: genarateGaDown("pdf", "gitless.pdf"),
         day: "2017/01",
         title: "チームで行うコーディング作業を容易にする方法"
     },
     {
-        href: "sources/quickLaTeX.pdf",
+        href: "https://www.dropbox.com/s/j7i5hhixjr1h4s5/LaTeX%E3%82%AF%E3%82%A4%E3%83%83%E3%82%AF%E3%83%AA%E3%83%95%E3%82%A1%E3%83%AC%E3%83%B3%E3%82%B9.pdf?dl=0",
         ga: genarateGaDown("pdf", "quickLaTeX.pdf"),
         day: "2016/11",
         title: "LaTeXコマンド集"
     },
     {
-        href: "sources/ryouyaku.pdf",
+        href: "https://www.dropbox.com/s/3hiu7p4uier7efr/%E5%AE%AE%E5%B4%8E%E5%A4%A7%E5%AD%A6%E5%9B%BD%E9%9A%9B%E4%BA%A4%E6%B5%81%E5%AE%BF%E8%88%8E%E3%81%AB%E3%81%8A%E3%81%91%E3%82%8B%E5%AF%AE%E5%BD%B9%E5%88%B6%E5%BA%A6%5B2016-10-17%5D.pdf?dl=0",
         ga: genarateGaDown("pdf", "ryouyaku.pdf"),
         day: "2016/10",
         title: "宮崎大学国際交流宿舎における寮役制度"
     },
     {
-        href: "sources/brexit.pdf",
+        href: "https://www.dropbox.com/s/upuhbvi6nlo3fun/%E3%82%A4%E3%82%AE%E3%83%AA%E3%82%B9%E3%81%AF%E4%BD%95%E6%95%85EU%E3%82%92%E9%9B%A2%E8%84%B1%E3%81%97%E3%81%9F%E3%81%AE%E3%81%8B%EF%BC%9F.pdf?dl=0",
         ga: genarateGaDown("pdf", "brexit.pdf"),
         day: "2016/08",
         title: "イギリスは何故EUを離脱するのか"
@@ -126,7 +126,7 @@ export const items = [
         title: "PostgreSQLコマンドチートシート"
     },
     {
-        href: "sources/roma.pdf",
+        href: "https://www.dropbox.com/s/oz708e8k3ild0vk/roman_trans%28manual%29.ver.2.0.pdf?dl=0",
         ga: genarateGaDown("pdf", "roma.pdf"),
         day: "2016/07",
         title: "roman_num_trans(manual)"
