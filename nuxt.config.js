@@ -1,6 +1,6 @@
 export default {
     workbox: {
-        dev: true, //開発環境でもPWAできるように
+        dev: false, //開発環境でもPWAできるように
     },
     srcDir: 'client/',
     modules: [
