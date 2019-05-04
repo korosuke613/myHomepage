@@ -11,7 +11,7 @@
           <small>（写真真ん中）</small>
         </h2>
         <p>
-          宮崎大学 工学研究科 工学専攻 機械・情報系コース 修士課程1年 片山(徹)研究室所属
+          宮崎大学 工学研究科 工学専攻 機械・情報系コース 修士課程2年 片山(徹)研究室所属
           <br>
           <br>
           <a
@@ -45,7 +45,7 @@
           >ブログ始めました。</a>
         </p>
         <p>
-          <span itemprop="datePublished" content="2019-02-24">平成31年2月24日現在</span>
+          <span itemprop="datePublished" content="2019-02-24">令和元年5月4日現在</span>
         </p>
       </div>
       <div class="col-sm-6">
