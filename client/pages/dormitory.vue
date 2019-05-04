@@ -8,7 +8,7 @@
       <div id="dormitory">
         2014年から2018年までの間に宮崎大学国際交流宿舎の寮生だった人向けのページです。
         <br>宮崎大学国際交流宿舎への入寮を検討している人は
-        <a href="./dormitory_introduction.html">こちら</a>
+        <nuxt-link to="/dormitory_introduction">こちら</nuxt-link>
         <hr>
         <div class="col-xs-12 col-sm-7 col-md-8">
           <Docs/>
