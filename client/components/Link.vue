@@ -66,7 +66,7 @@
       </li>
     </ul>
     <a href="./dormitory_introduction.html">宮崎大学国際交流宿舎の紹介ページ(2017)</a>
-    <a href="./dormitory.html">宮崎大学国際交流宿舎の寮生向けページ(2017)</a>
+    <router-link to="./dormitory">宮崎大学国際交流宿舎の寮生向けページ(2017)</router-link>
     <a
       href="http://earth.cs.miyazaki-u.ac.jp/~miyaji/"
       target="_blank"
