@@ -6,35 +6,35 @@
         <div class="row">
           <div class="col-sm-4 col-xs-4">
             <a
-              href="images/dormitory/room1.jpg"
+              href="@/assets/images/dormitory/room1.jpg"
               data-lightbox="image"
               data-title="居室1"
               onClick="ga('send', 'event', 'photo', 'photo', 'room1')"
               class="photo dorm"
             >
-              <img src="images/dormitory/room1.jpg" class="img-responsive img-rounded" alt="居室1">
+              <img src="@/assets/images/dormitory/room1.jpg" class="img-responsive img-rounded" alt="居室1">
             </a>
           </div>
           <div class="col-sm-4 col-xs-4">
             <a
-              href="images/dormitory/room2.jpg"
+              href="@/assets/images/dormitory/room2.jpg"
               data-lightbox="image"
               data-title="居室2"
               onClick="ga('send', 'event', 'photo', 'photo', 'room2')"
               class="photo dorm"
             >
-              <img src="images/dormitory/room2.jpg" class="img-responsive img-rounded" alt="居室2">
+              <img src="@/assets/images/dormitory/room2.jpg" class="img-responsive img-rounded" alt="居室2">
             </a>
           </div>
           <div class="col-sm-4 col-xs-4">
             <a
-              href="images/dormitory/toile.jpg"
+              href="@/assets/images/dormitory/toile.jpg"
               data-lightbox="image"
               data-title="トイレ"
               onClick="ga('send', 'event', 'photo', 'photo', 'toile')"
               class="photo dorm"
             >
-              <img src="images/dormitory/toile.jpg" class="img-responsive img-rounded" alt="トイレ">
+              <img src="@/assets/images/dormitory/toile.jpg" class="img-responsive img-rounded" alt="トイレ">
             </a>
           </div>
         </div>

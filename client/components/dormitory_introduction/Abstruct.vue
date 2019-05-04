@@ -8,13 +8,13 @@
       </div>
       <div class="col-sm-7 col-xs-12">
         <a
-          href="images/dormitory/dormitory.jpg"
+          href="@/assets/images/dormitory/dormitory.jpg"
           data-lightbox="image"
           data-title="国寮正面"
           onClick="ga('send', 'event', 'photo', 'photo', 'dormitory')"
           class="photo dorm"
         >
-          <img src="images/dormitory/dormitory.jpg" class="img-responsive img-rounded" alt="国寮正面">
+          <img src="@/assets/images/dormitory/dormitory.jpg" class="img-responsive img-rounded" alt="国寮正面">
         </a>
       </div>
     </div>
