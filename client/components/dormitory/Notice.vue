@@ -7,12 +7,11 @@
       </h2>
       <a
         class="twitter-timeline"
-        height="360px"
-        width="350px"
+        data-width="360"
+        data-height="350"
         data-theme="dark"
-        data-chrome="”noheader"
-        transparent”
-        href="https://twitter.com/kokuryo_miya"
+        data-link-color="#9266CC"
+        href="https://twitter.com/kokuryo_miya?ref_src=twsrc%5Etfw"
       >Tweets by kokuryo_miya</a>
     </div>
     <div class="visible-xxs col-xxs-12">
@@ -23,12 +22,11 @@
       <div style="text-align:center;">
         <a
           class="twitter-timeline"
-          height="360px"
-          width="300px"
+          data-width="360"
+          data-height="300"
           data-theme="dark"
-          data-chrome="”noheader"
-          transparent”
-          href="https://twitter.com/kokuryo_miya"
+          data-link-color="#9266CC"
+          href="https://twitter.com/kokuryo_miya?ref_src=twsrc%5Etfw"
         >Tweets by kokuryo_miya</a>
       </div>
     </div>
