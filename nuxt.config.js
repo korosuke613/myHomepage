@@ -34,15 +34,15 @@ export default {
             { hid: 'description', name: 'description', content: 'ひらこば ふうたのホームページ' },
         ],
         script: [
-            { src: 'https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js' },
-            { src: "/js/bootstrap.min.js" },
-            { src: "/js/lightbox.js" },
-            { src: "/js/page_scroll.js" },
-            { src: "/js/load_css.js" }
+            { src: 'https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js', defer: true },
+            { src: "/js/bootstrap.min.js", defer: true },
+            { src: "/js/lightbox.js", defer: true },
+            { src: "/js/page_scroll.js", defer: true },
+            { src: "/js/load_css.js", defer: true }
         ],
         link: [
-            { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css?family=Anton' },
-            { rel: 'stylesheet', href: 'https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css' }
+            { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css?family=Anton', defer: true },
+            { rel: 'stylesheet', href: 'https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css', defer: true }
         ],
     },
     css: [
