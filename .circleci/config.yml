@@ -1,10 +1,13 @@
-version: 2
-jobs:
-  build:
+version: 2.1
+executors:
+  default:
     working_directory: ~/workspace
     docker:
       - image: node:10.15.3
 
+jobs:
+  build:
+    executor: default
     steps:
       - checkout
       - restore_cache:
@@ -20,13 +23,43 @@ jobs:
       - run:
           name: Build
           command: yarn generate
-      - run: git config user.email "korosuke613+circleci@users.noreply.github.com"
-      - run: git config user.name "korosuke613+circleci"
-      - run:
-          name: Deploy
-          command: yarn deploy
       - save_cache:
           key: projectname-{{ .Branch }}-{{ checksum "yarn.lock" }}
           paths:
             - ~/workspace/node_modules
             - ~/.cache/yarn/
+      - persist_to_workspace:
+          root: .
+          paths:
+            - .
+  deploy:
+    executor: default
+    steps:
+      - attach_workspace:
+          at: .
+      - run: git config user.email "korosuke613+circleci@users.noreply.github.com"
+      - run: git config user.name "korosuke613+circleci"
+      - run:
+          name: Deploy
+          command: yarn deploy
+
+workflows:
+  build_and_test:
+    jobs:
+      - build:
+          filters:
+            branches:
+              ignore: master
+
+  publish:
+    jobs:
+      - build:
+          filters:
+            branches:
+              only: master
+      - deploy:
+          requires:
+            - build
+          filters:
+            branches:
+              only: master
