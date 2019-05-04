@@ -1,9 +1,13 @@
 export default {
+    workbox: {
+        dev: true, //開発環境でもPWAできるように
+    },
     srcDir: 'client/',
     modules: [
         '@nuxtjs/google-adsense',
         '@nuxtjs/google-analytics',
-        '@nuxtjs/sitemap'
+        '@nuxtjs/sitemap',
+        '@nuxtjs/pwa'
     ],
     sitemap: {
         hostname: 'https://korosuke613.github.io',
