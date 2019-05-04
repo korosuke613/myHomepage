@@ -44,7 +44,7 @@ export default {
   },
   head() {
     return {
-      title: "Dormitory"
+      title: "宮崎大学国際交流宿舎(2014-2018)"
     };
   }
 };
