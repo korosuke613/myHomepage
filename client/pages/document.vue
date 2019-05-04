@@ -9,6 +9,11 @@
         </a>
       </div>
     </div>
+    <div class="col-xs-12 text-right">
+      <nuxt-link to="/">
+        <em>戻る</em>
+      </nuxt-link>
+    </div>
   </div>
 </template>
 <script>
