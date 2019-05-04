@@ -28,20 +28,35 @@ jobs:
           paths:
             - ~/workspace/node_modules
             - ~/.cache/yarn/
-      - persist_to_workspace:
-          root: .
-          paths:
-            - .
   deploy:
     executor: default
     steps:
-      - attach_workspace:
-          at: .
+      - checkout
+      - restore_cache:
+          key: projectname-{{ .Branch }}-{{ checksum "yarn.lock" }}
+      - run:
+          name: System information
+          command: |
+            echo "Node $(node -v)"
+            echo "Yarn v$(yarn --version)"
+      - run:
+          name: Install dependencies
+          command: yarn
+      - run:
+          name: Build
+          command: yarn generate
       - run: git config user.email "korosuke613+circleci@users.noreply.github.com"
       - run: git config user.name "korosuke613+circleci"
       - run:
           name: Deploy
           command: yarn deploy
+      - save_cache:
+          key: projectname-{{ .Branch }}-{{ checksum "yarn.lock" }}
+          paths:
+            - ~/workspace/node_modules
+            - ~/.cache/yarn/
+
+
 
 workflows:
   build_and_test:
@@ -53,13 +68,7 @@ workflows:
 
   publish:
     jobs:
-      - build:
-          filters:
-            branches:
-              only: master
       - deploy:
-          requires:
-            - build
           filters:
             branches:
               only: master
