@@ -51,7 +51,7 @@
       </div>
       <p></p>
       <div class="col-xs-12 text-right">
-        <em>戻る</em>
+        <nuxt-link to="/"><em>戻る</em></nuxt-link>
       </div>
     </div>
   </div>
