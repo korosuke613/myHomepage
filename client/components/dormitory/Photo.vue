@@ -15,7 +15,7 @@
         target="_blank"
         onClick="ga('send', 'event', 'link', 'photo', '201704 bare-')"
       >
-        <img src="images/dormitory/2017bare-.jpg" class="img-responsive img-rounded">
+        <img src="@/assets/images/dormitory/2017bare-.jpg" class="img-responsive img-rounded">
       </a>
       <span id="photoname">2017/04 バレーカレー</span>
       <hr>
@@ -26,7 +26,7 @@
         target="_blank"
         onClick="ga('send', 'event', 'link', 'photo', '201611 gakusai')"
       >
-        <img src="images/dormitory/2016gakusai.jpg" class="img-responsive img-rounded">
+        <img src="@/assets/images/dormitory/2016gakusai.jpg" class="img-responsive img-rounded">
       </a>
       <span id="photoname">2016/11 学祭</span>
       <hr>
@@ -38,7 +38,7 @@
         target="_blank"
         onClick="ga('send', 'event', 'link', 'photo', '201610 kyugi')"
       >
-        <img src="images/dormitory/2016kyugi.jpg" class="img-responsive img-rounded">
+        <img src="@/assets/images/dormitory/2016kyugi.jpg" class="img-responsive img-rounded">
       </a>
       <span id="photoname">2016/10 球技大会</span>
       <hr>
@@ -50,7 +50,7 @@
         target="_blank"
         onClick="ga('send', 'event', 'link', 'photo', '201610 ensoku')"
       >
-        <img src="images/dormitory/2016ensoku.jpg" class="img-responsive img-rounded">
+        <img src="@/assets/images/dormitory/2016ensoku.jpg" class="img-responsive img-rounded">
       </a>
       <span id="photoname">2016/10 遠足</span>
       <hr>
@@ -61,7 +61,7 @@
         target="_blank"
         onClick="ga('send', 'event', 'link', 'photo', '201607 sososo')"
       >
-        <img src="images/dormitory/2016sososo.jpg" class="img-responsive img-rounded">
+        <img src="@/assets/images/dormitory/2016sososo.jpg" class="img-responsive img-rounded">
       </a>
       <span id="photoname">2016/07 そそそ会</span>
       <hr>
@@ -72,7 +72,7 @@
         target="_blank"
         onClick="ga('send', 'event', 'link', 'photo', '201604 bare-')"
       >
-        <img src="images/dormitory/2016bare-.jpg" class="img-responsive img-rounded">
+        <img src="@/assets/images/dormitory/2016bare-.jpg" class="img-responsive img-rounded">
       </a>
       <span id="photoname">2016/04 バレーカレー</span>
       <hr>
@@ -83,7 +83,7 @@
         target="_blank"
         onClick="ga('send', 'event', 'link', 'photo', '201511 gakusai')"
       >
-        <img src="images/dormitory/2015gakusai.jpg" class="img-responsive img-rounded">
+        <img src="@/assets/images/dormitory/2015gakusai.jpg" class="img-responsive img-rounded">
       </a>
       <span id="photoname">2015/11 学祭</span>
       <hr>
@@ -94,7 +94,7 @@
         target="_blank"
         onClick="ga('send', 'event', 'link', 'photo', '201510 halowin')"
       >
-        <img src="images/dormitory/2015haro.jpg" class="img-responsive img-rounded">
+        <img src="@/assets/images/dormitory/2015haro.jpg" class="img-responsive img-rounded">
       </a>
       <span id="photoname">2015/10 ハロウィン</span>
       <hr>
@@ -105,7 +105,7 @@
         target="_blank"
         onClick="ga('send', 'event', 'link', 'photo', '201510 ensoku')"
       >
-        <img src="images/dormitory/2015ensoku.jpg" class="img-responsive img-rounded">
+        <img src="@/assets/images/dormitory/2015ensoku.jpg" class="img-responsive img-rounded">
       </a>
       <span id="photoname">2015/10 遠足</span>
       <hr>
@@ -116,7 +116,7 @@
         target="_blank"
         onClick="ga('send', 'event', 'link', 'photo', '201507 sososo')"
       >
-        <img src="images/dormitory/2015sososo.jpg" class="img-responsive img-rounded">
+        <img src="@/assets/images/dormitory/2015sososo.jpg" class="img-responsive img-rounded">
       </a>
       <span id="photoname">2015/07 そそそ会</span>
       <hr>
@@ -127,7 +127,7 @@
         target="_blank"
         onClick="ga('send', 'event', 'link', 'photo', '201506 taikukan')"
       >
-        <img src="images/dormitory/2015taikukan.jpg" class="img-responsive img-rounded">
+        <img src="@/assets/images/dormitory/2015taikukan.jpg" class="img-responsive img-rounded">
       </a>
       <span id="photoname">2015/06 国寮大運動会(体育館)</span>
       <hr>
@@ -138,7 +138,7 @@
         target="_blank"
         onClick="ga('send', 'event', 'link', 'photo', '201506 soto')"
       >
-        <img src="images/dormitory/2015soto.jpg" class="img-responsive img-rounded">
+        <img src="@/assets/images/dormitory/2015soto.jpg" class="img-responsive img-rounded">
       </a>
       <span id="photoname">2015/06 国寮大運動会(外)</span>
       <hr>
@@ -149,25 +149,10 @@
         target="_blank"
         onClick="ga('send', 'event', 'link', 'photo', '201505 kaeda')"
       >
-        <img src="images/dormitory/2015kaeda.jpg" class="img-responsive img-rounded">
+        <img src="@/assets/images/dormitory/2015kaeda.jpg" class="img-responsive img-rounded">
       </a>
       <span id="photoname">2015/05 加江田ウォークラリー</span>
       <hr>
-    </div>
-
-    <div class="col-xs-12">
-      <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-      <!-- korosuke613.github.io -->
-      <ins
-        class="adsbygoogle"
-        style="display:block"
-        data-ad-client="ca-pub-7246355771451460"
-        data-ad-slot="1166933944"
-        data-ad-format="auto"
-      ></ins>
-      <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-      </script>
     </div>
   </div>
 </template>
