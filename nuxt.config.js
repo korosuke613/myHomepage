@@ -3,20 +3,26 @@ export default {
     workbox: {
         dev: false, //開発環境でもPWAできるように
     },
+    generate: {
+        subFolders: false
+    },
     router: {
-        extendRoutes(routes) {
-            routes.push({
-                path: '/index.html',
-                component: '@/pages/index.vue'
-            })
-            routes.push({
-                path: '/dormitory.html',
-                component: '@/pages/dormitory.vue'
-            })
-            routes.push({
-                path: '/dormitory_introduction.html',
-                component: '@/pages/dormitory_introduction.vue'
-            })
+        base: process.env.BASE_DIR || '/',
+        extendRoutes(routes, resolve) {
+            const aliases = routes.map(route => ({
+                path: /\/$/.test(route.path) ? `${route.path}index.html` : `${route.path}.html`,
+                alias: route.path,
+                component: route.component
+            }))
+            routes.push(...aliases)
+        }
+    },
+    hooks: {
+        generate: {
+            async extendRoutes(routes) {
+                const filtered = routes.filter(page => !/\.html$/.test(page.route))
+                routes.splice(0, routes.length, ...filtered)
+            }
         }
     },
     srcDir: 'client/',
