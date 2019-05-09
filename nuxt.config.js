@@ -70,7 +70,6 @@ export default {
             { src: 'https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js', integrity: "sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd", crossorigin: "anonymous", defer: true },
             { src: "/js/lightbox.min.js", defer: true },
             { src: "/js/page_scroll.js", defer: true },
-            { src: "/js/load_css.js", defer: true }
         ],
         link: [
             { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css?family=Anton', defer: true },
