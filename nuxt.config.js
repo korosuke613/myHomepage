@@ -4,7 +4,8 @@ export default {
         dev: false, //開発環境でもPWAできるように
     },
     generate: {
-        subFolders: false
+        subFolders: false,
+        fallback: true
     },
     router: {
         base: process.env.BASE_DIR || '/',
