@@ -1,6 +1,23 @@
 export default {
+    mode: 'spa',
     workbox: {
         dev: false, //開発環境でもPWAできるように
+    },
+    router: {
+        extendRoutes(routes) {
+            routes.push({
+                path: '/index.html',
+                component: '@/pages/index.vue'
+            })
+            routes.push({
+                path: '/dormitory.html',
+                component: '@/pages/dormitory.vue'
+            })
+            routes.push({
+                path: '/dormitory_introduction.html',
+                component: '@/pages/dormitory_introduction.vue'
+            })
+        }
     },
     srcDir: 'client/',
     modules: [
