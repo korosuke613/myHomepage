@@ -1,5 +1,5 @@
 export default {
-    mode: 'spa',
+    mode: 'universal',
     workbox: {
         dev: false, //開発環境でもPWAできるように
     },
@@ -57,6 +57,9 @@ export default {
             { name: 'viewport', content: 'width=device-width, initial-scale=1' },
             { name: "google-site-verification", content: "V65tkfTzyTOAIVOF3kEq5KCkGYaNpG6fTLj8Imi6S-0" },
             { hid: 'og:title', property: 'og:title', content: 'Korosuke613@miyazaki' },
+            { hid: 'og:site_name', property: 'og:site_name', content: 'Korosuke613@miyazaki' },
+            { hid: 'og:type', property: 'og:type', content: 'website' },
+            { hid: 'og:url', property: 'og:url', content: 'https://korosuke613.github.io' },
             //{ hid: 'og:image', property: 'og:image', content: 'https://github.com/TakaShinoda/beeenowiki/raw/master/src/img/beeno1.jpg' },
             //{ hid: 'og:image:width', property: 'og:image:width', content: '1029' },
             //{ hid: 'og:image:height', property: 'og:image:height', content: '1239' },
