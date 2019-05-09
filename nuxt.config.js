@@ -32,7 +32,11 @@ export default {
         '@nuxtjs/google-analytics',
         '@nuxtjs/sitemap',
         '@nuxtjs/pwa',
+        '@bazzite/nuxt-optimized-images',
     ],
+    optimizedImages: {
+        optimizeImages: true
+    },
     sitemap: {
         hostname: 'https://korosuke613.github.io',
         exclude: [
