@@ -67,7 +67,7 @@ export default {
         ],
         script: [
             { src: 'https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js', defer: true },
-            { src: 'https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js', integrity: "sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd", crossorigin: "anonymous", defer: true },
+            { src: 'https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js', integrity: "sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd", crossorigin: "anonymous" },
             { src: "/js/lightbox.min.js", defer: true },
             { src: "/js/page_scroll.js", defer: true },
             { src: "/js/load_css.js", defer: true }
@@ -75,7 +75,7 @@ export default {
         link: [
             { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css?family=Anton', defer: true },
             { rel: 'stylesheet', href: 'https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css', defer: true },
-            { rel: "stylesheet", href: "https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css", integrity: "sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu", crossorigin: "anonymous", defer: true }
+            { rel: "stylesheet", href: "https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css", integrity: "sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu", crossorigin: "anonymous" }
         ],
     },
     css: [
