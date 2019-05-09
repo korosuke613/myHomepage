@@ -12,38 +12,38 @@
       </p>
       <hr class="style-two">
       <div class="col-xs-12">
-        <Abstruct />
+        <Abstruct/>
       </div>
 
       <div class="col-xs-12">
-        <Good />
+        <Good/>
       </div>
 
       <div class="col-xs-12">
-        <Room />
+        <Room/>
       </div>
       <div class="col-xs-12">
-        <CommonRoom />
-      </div>
-
-      <div class="col-xs-12">
-        <Eval />
+        <CommonRoom/>
       </div>
 
       <div class="col-xs-12">
-        <Around />
+        <Eval/>
       </div>
 
       <div class="col-xs-12">
-        <QandA />
+        <Around/>
       </div>
 
       <div class="col-xs-12">
-        <Link />
+        <QandA/>
       </div>
 
       <div class="col-xs-12">
-        <Contribute />
+        <Link/>
+      </div>
+
+      <div class="col-xs-12">
+        <Contribute/>
       </div>
 
       <div class="col-xs-12">
@@ -51,7 +51,9 @@
       </div>
       <p></p>
       <div class="col-xs-12 text-right">
-        <nuxt-link to="/"><em>戻る</em></nuxt-link>
+        <nuxt-link to="/">
+          <em>戻る</em>
+        </nuxt-link>
       </div>
     </div>
   </div>
@@ -69,6 +71,7 @@ import Around from "@/components/dormitory_introduction/Around.vue";
 import QandA from "@/components/dormitory_introduction/QandA.vue";
 import Link from "@/components/dormitory_introduction/Link.vue";
 import Contribute from "@/components/dormitory_introduction/Contribute.vue";
+import Meta from "~/assets/mixins/meta";
 
 export default {
   layout: "default",
@@ -83,9 +86,14 @@ export default {
     Link,
     Contribute
   },
-  head() {
+  mixins: [Meta],
+  data() {
     return {
-      title: "宮崎大学国際交流宿舎の紹介(2017)"
+      meta: {
+        title: "宮崎大学国際交流宿舎の紹介(2017)",
+        description: "宮崎大学の寮の一つ、国際交流宿舎を紹介するページです。",
+        url: this.$nuxt.$route.path
+      }
     };
   }
 };

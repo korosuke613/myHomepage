@@ -15,15 +15,17 @@
         </div>
         <Notice/>
         <div class="col-xs-12">
-          <Youtube />
+          <Youtube/>
         </div>
         <div class="col-xs-12">
-          <Photo />
+          <Photo/>
         </div>
       </div>
 
       <div class="col-xs-12 text-right">
-        <nuxt-link to="/"><em>戻る</em></nuxt-link>
+        <nuxt-link to="/">
+          <em>戻る</em>
+        </nuxt-link>
       </div>
     </div>
   </div>
@@ -31,9 +33,11 @@
 
 <script>
 import Docs from "@/components/dormitory/Docs.vue";
-import Notice from "@/components/dormitory/Notice.vue"
-import Youtube from "@/components/dormitory/Youtube.vue"
-import Photo from "@/components/dormitory/Photo.vue"
+import Notice from "@/components/dormitory/Notice.vue";
+import Youtube from "@/components/dormitory/Youtube.vue";
+import Photo from "@/components/dormitory/Photo.vue";
+import Meta from "~/assets/mixins/meta";
+
 export default {
   layout: "default",
   components: {
@@ -42,9 +46,14 @@ export default {
     Youtube,
     Photo
   },
-  head() {
+  mixins: [Meta],
+  data() {
     return {
-      title: "宮崎大学国際交流宿舎(2014-2018)"
+      meta: {
+        title: "宮崎大学国際交流宿舎(2014-2018)",
+        description: "2014年から2018年までの間に宮崎大学国際交流宿舎の寮生だった人向けのページです。",
+        url: this.$nuxt.$route.path
+      }
     };
   }
 };

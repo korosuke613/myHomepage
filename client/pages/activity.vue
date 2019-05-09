@@ -19,17 +19,20 @@
 
 <script>
 import { items } from "@/assets/json/ActivityData.js";
+import Meta from "~/assets/mixins/meta";
+
 export default {
   layout: "default",
+  mixins: [Meta],
 
   data() {
     return {
-      items: items
-    };
-  },
-  head() {
-    return {
-      title: "Activity"
+      items: items,
+      meta: {
+        title: "Activity",
+        description: "今まで作ったもの？をまとめたページです。",
+        url: this.$nuxt.$route.path
+      }
     };
   }
 };

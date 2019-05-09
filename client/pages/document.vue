@@ -18,17 +18,19 @@
 </template>
 <script>
 import { items } from "@/assets/json/DocumentsData.js";
+import Meta from "~/assets/mixins/meta";
 export default {
   layout: "default",
+  mixins: [Meta],
 
   data() {
     return {
-      items: items
-    };
-  },
-  head() {
-    return {
-      title: "Document"
+      items: items,
+      meta: {
+        title: "Document",
+        description: "今まで書いた何かをまとめたページです。",
+        url: this.$nuxt.$route.path
+      }
     };
   }
 };
