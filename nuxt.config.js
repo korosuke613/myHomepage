@@ -32,12 +32,6 @@ export default {
         '@nuxtjs/google-analytics',
         '@nuxtjs/sitemap',
         '@nuxtjs/pwa',
-        ["nuxt-imagemin",
-            {
-                optipng: { optimizationLevel: 5 },
-                gifsicle: { optimizationLevel: 2 }
-            }
-        ],
     ],
     sitemap: {
         hostname: 'https://korosuke613.github.io',
