@@ -11,7 +11,10 @@
             :onClick="item.ga"
             class="photo"
           >
-            <img :src="item.mini" class="img-responsive img-rounded" alt>
+            <picture>
+              <source :srcset="item.mini_webp" type="image/webp">
+              <img class="img-responsive img-rounded" :src="item.mini">
+            </picture>
           </a>
         </div>
       </div>
@@ -32,25 +35,29 @@ export default {
           href: require("~/assets/images/aoshima.jpg"),
           title: "サンメッセ日南",
           ga: genarateGA("sanmesse"),
-          mini: require("~/assets/images/aoshima_mini.jpg")
+          mini: require("~/assets/images/aoshima_mini.jpg"),
+          mini_webp: require("~/assets/images/aoshima_mini.jpg?webp")
         },
         {
           href: require("~/assets/images/fushimi.jpg"),
           title: "伏見稲荷神社",
           ga: genarateGA("hushimi"),
-          mini: require("~/assets/images/fushimi_mini.jpg")
+          mini: require("~/assets/images/fushimi_mini.jpg"),
+          mini_webp: require("~/assets/images/fushimi_mini.jpg?webp")
         },
         {
           href: require("~/assets/images/takatiho.jpg"),
           title: "高千穂峡",
           ga: genarateGA("takachiho"),
-          mini: require("~/assets/images/takatiho_mini.jpg")
+          mini: require("~/assets/images/takatiho_mini.jpg"),
+          mini_webp: require("~/assets/images/takatiho_mini.jpg?webp")
         },
         {
           href: require("~/assets/images/kirishima.jpg"),
           title: "霧島",
           ga: genarateGA("kirishima"),
-          mini: require("~/assets/images/kirishima_mini.jpg")
+          mini: require("~/assets/images/kirishima_mini.jpg"),
+          mini_webp: require("~/assets/images/kirishima_mini.jpg?webp")
         }
       ]
     };
