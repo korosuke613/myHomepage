@@ -1,6 +1,7 @@
 @font-face {
     font-family: 'mplus-1c-r';
     /* お好きな名前にしましょう */
+    font-display: auto;
     src: url('../fonts/mplus-1c-regular-sub.eot');
     /* IE9以上用 */
     src: url('../fonts/mplus-1c-regular-sub.eot?#iefix') format('embedded-opentype'), /* IE8以前用 */
@@ -15,6 +16,7 @@
 @font-face {
     font-family: 'mplus-1-r';
     /* お好きな名前にしましょう */
+    font-display: auto;
     src: url('../fonts/mplus-1-regular-sub.eot');
     /* IE9以上用 */
     src: url('../fonts/mplus-1-regular-sub.eot?#iefix') format('embedded-opentype'), /* IE8以前用 */
@@ -29,6 +31,7 @@
 @font-face {
     font-family: 'mplus-1-l';
     /* お好きな名前にしましょう */
+    font-display: auto;
     src: url('../fonts/mplus-1-light-sub.eot');
     /* IE9以上用 */
     src: url('../fonts/mplus-1-light-sub.eot?#iefix') format('embedded-opentype'), /* IE8以前用 */
