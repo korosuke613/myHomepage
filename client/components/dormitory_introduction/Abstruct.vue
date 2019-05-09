@@ -14,11 +14,10 @@
           onClick="ga('send', 'event', 'photo', 'photo', 'dormitory')"
           class="photo dorm"
         >
-          <img
-            :src="items[0].mini"
-            class="img-responsive img-rounded"
-            alt="国寮正面"
-          >
+          <picture>
+            <source :srcset="items[0].mini_webp" type="image/webp">
+            <img :src="items[0].mini" class="img-responsive img-rounded" alt="国寮正面">
+          </picture>
         </a>
       </div>
     </div>
@@ -32,7 +31,8 @@ export default {
       items: [
         {
           href: require("@/assets/images/dormitory/dormitory.jpg"),
-          mini: require("@/assets/images/dormitory/dormitory.jpg")
+          mini: require("@/assets/images/dormitory/dormitory.jpg"),
+          mini_webp: require("@/assets/images/dormitory/dormitory.jpg?webp")
         }
       ]
     };
