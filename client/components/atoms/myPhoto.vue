@@ -1,5 +1,8 @@
 <template>
   <div>
-    <img src="@/assets/images/myPhoto.jpg" class="img-responsive img-rounded" alt="ひらこばの写真">
+    <picture >
+      <source :src="require('@/assets/images/myPhoto.jpg?webp')" type="image/webp">
+      <img class="img-responsive img-rounded" :src="require('@/assets/images/myPhoto.jpg')" alt="ひらこばの写真">
+    </picture>
   </div>
 </template>

@@ -35,7 +35,8 @@ export default {
         '@bazzite/nuxt-optimized-images',
     ],
     optimizedImages: {
-        optimizeImages: true
+        optimizeImages: true,
+        optimizeImagesInDev: true
     },
     sitemap: {
         hostname: 'https://korosuke613.github.io',
