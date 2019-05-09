@@ -67,7 +67,7 @@ export default {
         ],
         script: [
             { src: 'https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js', defer: true },
-            { src: 'https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js', integrity: "sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd", crossorigin: "anonymous" },
+            { src: 'https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js', integrity: "sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd", crossorigin: "anonymous", defer: true },
             { src: "/js/lightbox.min.js", defer: true },
             { src: "/js/page_scroll.js", defer: true },
             { src: "/js/load_css.js", defer: true }
