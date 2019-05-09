@@ -6,6 +6,7 @@
         <a
           href="https://korosuke613.hatenablog.com"
           target="_blank"
+          rel="noopener"
           onClick="ga('send', 'event', 'link', 'other', 'hatenablog')"
         >
           <i class="fa fa-sticky-note">Blog</i>
@@ -15,6 +16,7 @@
         <a
           href="https://github.com/korosuke613"
           target="_blank"
+          rel="noopener"
           onClick="ga('send', 'event', 'link', 'sns', 'Github')"
           class="sns"
         >
@@ -25,6 +27,7 @@
         <a
           href="http://qiita.com/Shitimi_613"
           target="_blank"
+          rel="noopener"
           onClick="ga('send', 'event', 'link', 'sns', 'Qiita')"
           class="sns"
         >
@@ -38,6 +41,7 @@
         <a
           href="https://twitter.com/Shitimi_613"
           target="_blank"
+          rel="noopener"
           onClick="ga('send', 'event', 'link', 'sns', 'Twitter')"
           class="sns"
         >
@@ -48,6 +52,7 @@
         <a
           href="https://www.facebook.com/futa.hirakoba.5"
           target="_blank"
+          rel="noopener"
           onClick="ga('send', 'event', 'link', 'sns', 'Facebook')"
           class="sns"
         >
@@ -58,6 +63,7 @@
         <a
           href="https://www.instagram.com/kwlv613/"
           target="_blank"
+          rel="noopener"
           onClick="ga('send', 'event', 'link', 'sns', 'instagram')"
           class="sns"
         >
@@ -70,6 +76,7 @@
     <a
       href="http://earth.cs.miyazaki-u.ac.jp/~miyaji/"
       target="_blank"
+      rel="noopener"
       onClick="ga('send', 'event', 'link', 'other', 'Miyaji')"
     >研究室の友達、宮地俊宏くんのHP</a>
   </div>

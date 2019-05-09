@@ -4,34 +4,40 @@
     <a
       href="http://www.edu.pref.kagoshima.jp/sh/Kagoshima-T/"
       target="_blank"
+      rel="noopener"
       onClick="ga('send', 'event', 'link', 'other', 'Rokko')"
     >鹿児島工業高校</a> 情報技術系
     <br>2014~2018:
     <a
       href="http://www.miyazaki-u.ac.jp/"
       target="_blank"
+      rel="noopener"
       onClick="ga('send', 'event', 'link', 'other', 'Miyadai')"
     >宮崎大学</a>
     <a
       href="http://www.miyazaki-u.ac.jp/tech/"
       target="_blank"
+      rel="noopener"
       onClick="ga('send', 'event', 'link', 'other', 'Miyadai_tech')"
     >工学部</a>
     <a
       href="http://www.cs.miyazaki-u.ac.jp/new2012/"
       target="_blank"
+      rel="noopener"
       onClick="ga('send', 'event', 'link', 'other', 'Miyadai_tech_it')"
     >情報システム工学科</a>
     -
     <a
       href="http://earth.cs.miyazaki-u.ac.jp"
       target="_blank"
+      rel="noopener"
       onClick="ga('send', 'event', 'link', 'other', 'Miyadai_KatLab')"
     >片山(徹)研究室</a>
     <br>2018~20??: 宮崎大学
     <a
       href="http://www.miyazaki-u.ac.jp/tech/departments/master.html"
       target="_blank"
+      rel="noopener"
       onClick="ga('send', 'event', 'link', 'other', 'Miyadai_tech')"
     >工学研究科</a>
     <br>機械・情報系
@@ -39,6 +45,7 @@
     <a
       href="http://earth.cs.miyazaki-u.ac.jp"
       target="_blank"
+      rel="noopener"
       onClick="ga('send', 'event', 'link', 'other', 'Miyadai_KatLab')"
     >片山(徹)研究室</a>
     <br>

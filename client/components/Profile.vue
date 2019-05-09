@@ -3,7 +3,7 @@
     <h1>Profile</h1>
     <div class="row">
       <div class="col-sm-12 col-md-8">
-        <myPhoto />
+        <myPhoto/>
       </div>
       <div class="col-sm-12 col-md-4">
         <h2>
@@ -17,11 +17,13 @@
           <a
             href="https://github.com/korosuke613/BWDM"
             target="_blank"
+            rel="noopener"
             onClick="ga('send', 'event', 'link', 'other', 'BWDM')"
           >研究</a>でKotlin、
           <a
             href="https://github.com/KatLab-MiyazakiUniv/etrobocon2018"
             target="_blank"
+            rel="noopener"
             onClick="ga('send', 'event', 'link', 'other', 'etrobocon2018')"
           >ETロボコン</a>でC++を扱っています。
           学部の頃の研究でPythonを扱っていました。また、Javascriptを勉強中です。
@@ -29,18 +31,21 @@
           <a
             href="https://github.com/korosuke613/spec2test"
             target="_blank"
+            rel="noopener"
             onClick="ga('send', 'event', 'link', 'other', 'spec2test')"
           >仕様書からテストケースを生成する研究</a>をしていました。
           <br>現在は
           <a
             href="https://github.com/korosuke613/BWDM"
             target="_blank"
+            rel="noopener"
             onClick="ga('send', 'event', 'link', 'other', 'BWDM')"
           >形式手法を用いて記述された仕様書からテストケースを生成する研究</a>を行っています。
           <br>
           <a
             href="https://korosuke613.hatenablog.com"
             target="_blank"
+            rel="noopener"
             onClick="ga('send', 'event', 'link', 'other', 'hatenablog')"
           >ブログ始めました。</a>
         </p>

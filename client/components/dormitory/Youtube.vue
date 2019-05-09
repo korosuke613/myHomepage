@@ -9,6 +9,7 @@
       <a
         href="https://www.youtube.com/watch?v=fvEnrxz5sQw"
         target="_blank"
+        rel="noopener"
         onClick="ga('send', 'event', 'link', 'youtube', 'jokon2017dance')"
       >
         <img
@@ -25,6 +26,7 @@
       <a
         href="https://www.youtube.com/watch?v=oIjo1A5Ge4w"
         target="_blank"
+        rel="noopener"
         onClick="ga('send', 'event', 'link', 'youtube', 'jokon2017kojin')"
       >
         <img
@@ -42,6 +44,7 @@
       <a
         href="https://www.youtube.com/watch?v=DaNHQL3Az1o"
         target="_blank"
+        rel="noopener"
         onClick="ga('send', 'event', 'link', 'youtube', 'jokon2015dance')"
       >
         <img
@@ -59,6 +62,7 @@
       <a
         href="https://www.youtube.com/watch?v=tcQ3N1NBQK0"
         target="_blank"
+        rel="noopener"
         onClick="ga('send', 'event', 'link', 'youtube', 'jokon2015kojin')"
       >
         <img

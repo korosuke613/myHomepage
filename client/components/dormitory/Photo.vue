@@ -13,6 +13,7 @@
       <a
         href="https://opa.cig2.imagegateway.net/s/cp/HH32ADAJChy"
         target="_blank"
+        rel="noopener"
         onClick="ga('send', 'event', 'link', 'photo', '201704 bare-')"
       >
         <img src="@/assets/images/dormitory/2017bare-.jpg" class="img-responsive img-rounded">
@@ -24,6 +25,7 @@
       <a
         href="https://opa.cig2.imagegateway.net/s/cp/HWC5xCMfSjQ"
         target="_blank"
+        rel="noopener"
         onClick="ga('send', 'event', 'link', 'photo', '201611 gakusai')"
       >
         <img src="@/assets/images/dormitory/2016gakusai.jpg" class="img-responsive img-rounded">
@@ -36,6 +38,7 @@
       <a
         href="https://opa.cig2.imagegateway.net/s/cp/C5yxMXfcu73"
         target="_blank"
+        rel="noopener"
         onClick="ga('send', 'event', 'link', 'photo', '201610 kyugi')"
       >
         <img src="@/assets/images/dormitory/2016kyugi.jpg" class="img-responsive img-rounded">
@@ -48,6 +51,7 @@
       <a
         href="https://opa.cig2.imagegateway.net/s/cp/FQSs3dBRR52"
         target="_blank"
+        rel="noopener"
         onClick="ga('send', 'event', 'link', 'photo', '201610 ensoku')"
       >
         <img src="@/assets/images/dormitory/2016ensoku.jpg" class="img-responsive img-rounded">
@@ -59,6 +63,7 @@
       <a
         href="https://opa.cig2.imagegateway.net/s/cp/DZWKfVTL2jR"
         target="_blank"
+        rel="noopener"
         onClick="ga('send', 'event', 'link', 'photo', '201607 sososo')"
       >
         <img src="@/assets/images/dormitory/2016sososo.jpg" class="img-responsive img-rounded">
@@ -70,6 +75,7 @@
       <a
         href="https://opa.cig2.imagegateway.net/s/cp/EhHswWMNTZE"
         target="_blank"
+        rel="noopener"
         onClick="ga('send', 'event', 'link', 'photo', '201604 bare-')"
       >
         <img src="@/assets/images/dormitory/2016bare-.jpg" class="img-responsive img-rounded">
@@ -81,6 +87,7 @@
       <a
         href="https://opa.cig2.imagegateway.net/s/cp/DuuBeHDSjC4"
         target="_blank"
+        rel="noopener"
         onClick="ga('send', 'event', 'link', 'photo', '201511 gakusai')"
       >
         <img src="@/assets/images/dormitory/2015gakusai.jpg" class="img-responsive img-rounded">
@@ -92,6 +99,7 @@
       <a
         href="https://opa.cig2.imagegateway.net/s/album/DYRNKyxFF4V"
         target="_blank"
+        rel="noopener"
         onClick="ga('send', 'event', 'link', 'photo', '201510 halowin')"
       >
         <img src="@/assets/images/dormitory/2015haro.jpg" class="img-responsive img-rounded">
@@ -103,6 +111,7 @@
       <a
         href="https://opa.cig2.imagegateway.net/s/album/HedYYzPY4AA"
         target="_blank"
+        rel="noopener"
         onClick="ga('send', 'event', 'link', 'photo', '201510 ensoku')"
       >
         <img src="@/assets/images/dormitory/2015ensoku.jpg" class="img-responsive img-rounded">
@@ -114,6 +123,7 @@
       <a
         href="http://opa.cig2.imagegateway.net/s/album/EC7UxKPnNK8"
         target="_blank"
+        rel="noopener"
         onClick="ga('send', 'event', 'link', 'photo', '201507 sososo')"
       >
         <img src="@/assets/images/dormitory/2015sososo.jpg" class="img-responsive img-rounded">
@@ -125,6 +135,7 @@
       <a
         href="http://opa.cig2.imagegateway.net/s/album/DKZHPZLfFrS"
         target="_blank"
+        rel="noopener"
         onClick="ga('send', 'event', 'link', 'photo', '201506 taikukan')"
       >
         <img src="@/assets/images/dormitory/2015taikukan.jpg" class="img-responsive img-rounded">
@@ -136,6 +147,7 @@
       <a
         href="http://opa.cig2.imagegateway.net/s/album/GNijfnSaaPf"
         target="_blank"
+        rel="noopener"
         onClick="ga('send', 'event', 'link', 'photo', '201506 soto')"
       >
         <img src="@/assets/images/dormitory/2015soto.jpg" class="img-responsive img-rounded">
@@ -147,6 +159,7 @@
       <a
         href="http://opa.cig2.imagegateway.net/s/album/BMiHaGBDcxC"
         target="_blank"
+        rel="noopener"
         onClick="ga('send', 'event', 'link', 'photo', '201505 kaeda')"
       >
         <img src="@/assets/images/dormitory/2015kaeda.jpg" class="img-responsive img-rounded">

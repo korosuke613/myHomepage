@@ -7,6 +7,7 @@
         <a
           href="https://github.com/korosuke613/korosuke613.github.io"
           target="_blank"
+          rel="noopener"
           onClick="ga('send', 'event', 'link', 'source', 'korosuke613.github.io')"
         >
           <i class="fa fa-github">korosuke613.github.io</i>
@@ -17,6 +18,7 @@
         <a
           href="https://twitter.com/Shitimi_613"
           target="_blank"
+          rel="noopener"
           onClick="ga('send', 'event', 'link', 'sns', 'Twitter')"
           class="sns"
         >
