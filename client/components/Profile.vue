@@ -48,9 +48,11 @@
             rel="noopener"
             onClick="ga('send', 'event', 'link', 'other', 'hatenablog')"
           >ブログ始めました。</a>
+          <br>
+          就職決まりました。2020年4月から東京です。
         </p>
         <p>
-          <span itemprop="datePublished" content="2019-02-24">令和元年5月4日現在</span>
+          <span itemprop="datePublished" content="2019-06-21">令和元年6月21日現在</span>
         </p>
       </div>
       <div class="col-sm-6">
