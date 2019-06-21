@@ -33,7 +33,7 @@
       rel="noopener"
       onClick="ga('send', 'event', 'link', 'other', 'Miyadai_KatLab')"
     >片山(徹)研究室</a>
-    <br>2018~20??: 宮崎大学
+    <br>2018~2020: 宮崎大学
     <a
       href="http://www.miyazaki-u.ac.jp/tech/departments/master.html"
       target="_blank"
@@ -51,7 +51,7 @@
     <br>
     <br>2014~2015: 宮崎大学国際交流宿舎 会計
     <br>2015~2016: 宮崎大学国際交流宿舎 寮長
-    <br>2014~20??: 宮崎県学生献血推進協議会
+    <br>2014~2018: 宮崎県学生献血推進協議会
   </div>
 </template>
 
