@@ -79,6 +79,12 @@
       rel="noopener"
       onClick="ga('send', 'event', 'link', 'other', 'Miyaji')"
     >研究室の友達、宮地俊宏くんのHP</a>
+    <a
+      href="https://tatsumi0000.github.io/tatsumi0000/#/top"
+      target="_blank"
+      rel="noopener"
+      onClick="ga('send', 'event', 'link', 'other', 'Nishida')"
+    >研究室の友達、西田龍登くんのHP</a>
   </div>
 </template>
 
