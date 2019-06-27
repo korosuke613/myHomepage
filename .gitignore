@@ -2,3 +2,4 @@ node_modules
 .nuxt/
 dist/
 sw.js
+hatena.json

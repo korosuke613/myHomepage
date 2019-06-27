@@ -13,7 +13,7 @@
   </div>
 </template>
 <script>
-import { items } from "@/assets/json/DocumentsData.js";
+import items from "@/assets/json/hatena.json";
 export default {
   data() {
     return {

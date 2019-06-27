@@ -21,6 +21,9 @@ jobs:
           name: Install dependencies
           command: yarn
       - run:
+          name: Get Hatena
+          command: node .circleci/generate_hatena.js
+      - run:
           name: Build
           command: yarn generate
       - save_cache:
@@ -42,6 +45,9 @@ jobs:
       - run:
           name: Install dependencies
           command: yarn
+      - run:
+          name: Get Hatena
+          command: node .circleci/generate_hatena.js
       - run:
           name: Build
           command: yarn generate
