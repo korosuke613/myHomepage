@@ -6,7 +6,7 @@ const genarateGaDown = (kind, title) => {
     return `ga('send', 'event', 'download', '${kind}\', '${title}\')`;
 };
 
-export const items = [
+export const other = [
     {
         href: "https://qiita.com/Shitimi_613/items/9706d57fb7bc17cbed0e",
         title: "DockerでらくらくLaTeX環境構築",
