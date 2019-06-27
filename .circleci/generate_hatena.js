@@ -57,7 +57,8 @@ const main =
     const data = await get_xml(url);
     url = await createItems(data, item_list);
   }
-  fs.writeFileSync('../client/assets/json/hatena.json', JSON.stringify(item_list));
+  // Workspace直下で実行している前提です。
+  fs.writeFileSync('./client/assets/json/hatena.json', JSON.stringify(item_list));
 }
 
 main();
