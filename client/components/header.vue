@@ -3,7 +3,7 @@
     <div class="row">
       <div class="jumbotron" style="background-color:#333333;color:#FFF">
         <router-link to="/">
-          <h1 itemprop="name" id="headTitle">
+          <h1 itemprop="name" id="headTitle" style="color:#aaaab0">
             Korosuke613<small style="color:#aaaab0">@miyazaki</small>
           </h1>
         </router-link>

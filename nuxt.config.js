@@ -1,7 +1,7 @@
 export default {
   mode: "universal",
   workbox: {
-    dev: true //開発環境でもPWAできるように
+    dev: false //開発環境でもPWAできるように
   },
   generate: {
     subFolders: false,
