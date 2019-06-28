@@ -1,25 +1,21 @@
 a {
     display: inline-block;
     transition: .3s;
-    -webkit-transform: scale(1);
-    transform: scale(1);
 }
 
 a:link {
-    color: #696969;
+    color: #4f4c4c;
     text-decoration: none;
 }
 
 a:visited {
-    color: #808080;
+    color: #4f4c4c;
     text-decoration: none;
 }
 
 a:hover {
-    color: #606060;
+    color: #aba9a9;
     text-decoration: none;
-    -webkit-transform: scale(1.1);
-    transform: scale(1.1);
 }
 
 a:active {
@@ -46,8 +42,6 @@ a:active {
 .footLink:hover {
     color: #606060;
     text-decoration: none;
-    -webkit-transform: scale(0.9);
-    transform: scale(0.9);
 }
 
 .footLink:active {
@@ -81,17 +75,6 @@ a:active {
 .dorm:active {
     color: #fff;
     text-decoration: none;
-}
-
-@media screen and (min-width: 0px) and (max-width: 767px) {
-    a:hover {
-        -webkit-transform: scale(1.0);
-        transform: scale(1.0);
-    }
-    .footLink:hover {
-        -webkit-transform: scale(1.0);
-        transform: scale(1.0);
-    }
 }
 
 .row-eq-height {
