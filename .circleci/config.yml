@@ -49,11 +49,11 @@ jobs:
           name: Get Hatena
           command: node .circleci/generate_hatena.js
       - run:
-          name: Add ads.txt
-          command: echo "google.com, pub-7246355771451460, DIRECT, f08c47fec0942fa0" > ads.txt
-      - run:
           name: Build
           command: yarn generate
+      - run:
+          name: Add ads.txt
+          command: echo "google.com, pub-7246355771451460, DIRECT, f08c47fec0942fa0" > dist/ads.txt
       - run: git config user.email "korosuke613+circleci@users.noreply.github.com"
       - run: git config user.name "korosuke613+circleci"
       - add_ssh_keys:
