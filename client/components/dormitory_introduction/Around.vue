@@ -9,9 +9,9 @@
         onClick="ga('send', 'event', 'photo', 'photo', 'map')"
         class="photo dorm"
       >
-        <img :src="items[0].mini" class="img-responsive img-rounded" alt="周辺地図">
+        <img :src="items[0].mini" class="img-responsive img-rounded" alt="周辺地図" />
       </a>
-      <br>
+      <br />
     </div>
     <div class="col-md-4 col-xs-12">
       寮から徒歩5分圏内の地図です。
@@ -31,13 +31,9 @@
             onClick="ga('send', 'event', 'photo', 'photo', 'parking2')"
             class="photo dorm"
           >
-            <img
-              :src="items[1].mini"
-              class="img-responsive img-rounded"
-              alt="駐輪場"
-            >駐輪場
+            <img :src="items[1].mini" class="img-responsive img-rounded" alt="駐輪場" />駐輪場
           </a>
-          <br>
+          <br />
         </div>
         <div class="col-md-6 col-xs-6">
           <a
@@ -47,13 +43,9 @@
             onClick="ga('send', 'event', 'photo', 'photo', 'parking')"
             class="photo dorm"
           >
-            <img
-              :src="items[2].mini"
-              class="img-responsive img-rounded"
-              alt="駐車場"
-            >駐車場
+            <img :src="items[2].mini" class="img-responsive img-rounded" alt="駐車場" />駐車場
           </a>
-          <br>
+          <br />
         </div>
       </div>
     </div>

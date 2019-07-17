@@ -3,7 +3,7 @@
     <h1>Profile</h1>
     <div class="row">
       <div class="col-sm-12 col-md-8">
-        <myPhoto/>
+        <myPhoto />
       </div>
       <div class="col-sm-12 col-md-4">
         <h2>
@@ -12,8 +12,8 @@
         </h2>
         <p>
           宮崎大学 工学研究科 工学専攻 機械・情報系コース 修士課程2年 片山(徹)研究室所属
-          <br>
-          <br>
+          <br />
+          <br />
           <a
             href="https://github.com/korosuke613/BWDM"
             target="_blank"
@@ -27,39 +27,38 @@
             onClick="ga('send', 'event', 'link', 'other', 'etrobocon2018')"
           >ETロボコン</a>でC++を扱っています。
           学部の頃の研究でPythonを扱っていました。また、Javascriptを勉強中です。
-          <br>
+          <br />
           <a
             href="https://github.com/korosuke613/spec2test"
             target="_blank"
             rel="noopener"
             onClick="ga('send', 'event', 'link', 'other', 'spec2test')"
           >仕様書からテストケースを生成する研究</a>をしていました。
-          <br>現在は
+          <br />現在は
           <a
             href="https://github.com/korosuke613/BWDM"
             target="_blank"
             rel="noopener"
             onClick="ga('send', 'event', 'link', 'other', 'BWDM')"
           >形式手法を用いて記述された仕様書からテストケースを生成する研究</a>を行っています。
-          <br>
+          <br />
           <a
             href="https://korosuke613.hatenablog.com"
             target="_blank"
             rel="noopener"
             onClick="ga('send', 'event', 'link', 'other', 'hatenablog')"
           >ブログ始めました。</a>
-          <br>
-          就職決まりました。2020年4月から東京です。
+          <br />就職決まりました。2020年4月から東京です。
         </p>
         <p>
           <span itemprop="datePublished" content="2019-06-21">令和元年6月21日現在</span>
         </p>
       </div>
       <div class="col-sm-6">
-        <History/>
+        <History />
       </div>
       <div class="col-sm-6">
-        <Link/>
+        <Link />
       </div>
     </div>
   </div>

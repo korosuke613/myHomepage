@@ -12,7 +12,7 @@
               onClick="ga('send', 'event', 'photo', 'photo', 'room1')"
               class="photo dorm"
             >
-              <img :src="items[0].mini" class="img-responsive img-rounded" alt="居室1">
+              <img :src="items[0].mini" class="img-responsive img-rounded" alt="居室1" />
             </a>
           </div>
           <div class="col-sm-4 col-xs-4">
@@ -23,7 +23,7 @@
               onClick="ga('send', 'event', 'photo', 'photo', 'room2')"
               class="photo dorm"
             >
-              <img :src="items[1].mini" class="img-responsive img-rounded" alt="居室2">
+              <img :src="items[1].mini" class="img-responsive img-rounded" alt="居室2" />
             </a>
           </div>
           <div class="col-sm-4 col-xs-4">
@@ -34,7 +34,7 @@
               onClick="ga('send', 'event', 'photo', 'photo', 'toile')"
               class="photo dorm"
             >
-              <img :src="items[2].mini" class="img-responsive img-rounded" alt="トイレ">
+              <img :src="items[2].mini" class="img-responsive img-rounded" alt="トイレ" />
             </a>
           </div>
         </div>
@@ -42,7 +42,7 @@
       <div class="col-lg-6 col-xs-12">
         <p>
           実際に国寮生が住んでいる居室について紹介します。
-          <br>１人部屋で、トイレと洗面所が備え付けとなります。また、備品として、机・棚・クローゼット・ベッドがあります。
+          <br />１人部屋で、トイレと洗面所が備え付けとなります。また、備品として、机・棚・クローゼット・ベッドがあります。
         </p>
       </div>
     </div>

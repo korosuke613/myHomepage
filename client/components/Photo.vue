@@ -12,8 +12,8 @@
             class="photo"
           >
             <picture>
-              <source :srcset="item.mini_webp" type="image/webp">
-              <img class="img-responsive img-rounded" :src="item.mini" :alt="item.alt">
+              <source :srcset="item.mini_webp" type="image/webp" />
+              <img class="img-responsive img-rounded" :src="item.mini" :alt="item.alt" />
             </picture>
           </a>
         </div>

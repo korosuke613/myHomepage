@@ -3,6 +3,8 @@
     "dockerComposeFile": "docker-compose.yml",
     "extensions": [
         "formulahendry.terminal",
+        "octref.vetur",
+        "aeschli.vscode-css-formatter"
     ],
     "service": "node",
     "workspaceFolder": "/home/www/homepage",

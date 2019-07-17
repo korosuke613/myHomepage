@@ -17,10 +17,10 @@
           width="1200"
           height="800"
           class="img-responsive img-rounded"
-        >
+        />
       </a>
       <span id="photoname">【国際寮】平成２９年度女コン団体の部【FLASH & TT】</span>
-      <hr>
+      <hr />
     </div>
     <div class="col-sm-6 col-xs-12">
       <a
@@ -35,10 +35,10 @@
           width="1200"
           height="800"
           class="img-responsive img-rounded"
-        >
+        />
       </a>
       <span id="photoname">【国際寮】平成２９年度女コン個人の部【じゃい子ちゃん】</span>
-      <hr>
+      <hr />
     </div>
     <div class="col-sm-6 col-xs-12">
       <a
@@ -53,10 +53,10 @@
           width="1200"
           height="800"
           class="img-responsive img-rounded"
-        >
+        />
       </a>
       <span id="photoname">【国際寮】平成２７年度女コン団体の部【Boy Meets Girl & Little scarlet bad girl】</span>
-      <hr>
+      <hr />
     </div>
     <div class="col-sm-6 col-xs-12">
       <a
@@ -71,10 +71,10 @@
           width="1200"
           height="800"
           class="img-responsive img-rounded"
-        >
+        />
       </a>
       <span id="photoname">【国際寮】平成２７年度女コン個人の部【かん子ちゃん】</span>
-      <hr>
+      <hr />
     </div>
   </div>
 </template>

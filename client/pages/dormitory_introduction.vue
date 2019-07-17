@@ -10,40 +10,40 @@
       <p>
         <strong>！注意！ このページは宮崎大学とは一切関係ありません。一寮生である私から見た国際寮を紹介するページになります。</strong>
       </p>
-      <hr class="style-two">
+      <hr class="style-two" />
       <div class="col-xs-12">
-        <Abstruct/>
+        <Abstruct />
       </div>
 
       <div class="col-xs-12">
-        <Good/>
+        <Good />
       </div>
 
       <div class="col-xs-12">
-        <Room/>
+        <Room />
       </div>
       <div class="col-xs-12">
-        <CommonRoom/>
-      </div>
-
-      <div class="col-xs-12">
-        <Eval/>
+        <CommonRoom />
       </div>
 
       <div class="col-xs-12">
-        <Around/>
+        <Eval />
       </div>
 
       <div class="col-xs-12">
-        <QandA/>
+        <Around />
       </div>
 
       <div class="col-xs-12">
-        <Link/>
+        <QandA />
       </div>
 
       <div class="col-xs-12">
-        <Contribute/>
+        <Link />
+      </div>
+
+      <div class="col-xs-12">
+        <Contribute />
       </div>
 
       <div class="col-xs-12">
