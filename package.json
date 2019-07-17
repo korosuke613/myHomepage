@@ -2,7 +2,7 @@
   "scripts": {
     "build": "DEPLOY_ENV=GH_PAGES nuxt build",
     "generate": "DEPLOY_ENV=GH_PAGES nuxt generate",
-    "dev": "nuxt",
+    "dev": "NUXT_HOST=0.0.0.0 NUXT_PORT=3000 nuxt",
     "deploy": "gh-pages -d dist -t -b master -r https://github.com/korosuke613/korosuke613.github.io",
     "deploy:local": "gh-pages -d dist -t",
     "dev-debug": "node --inspect-brk=9229 node_modules/nuxt/bin/nuxt"
