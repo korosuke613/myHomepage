@@ -1,5 +1,5 @@
 const genarateGA = day => {
-  return `ga('send', 'event', 'link', 'make', '${day}\')`;
+  return `ga('send', 'event', 'link', 'make', '${day}')`;
 };
 
 export const items = [

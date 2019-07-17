@@ -1,9 +1,9 @@
 const genarateGA = (kind, title) => {
-  return `ga('send', 'event', 'link', '${kind}\', '${title}\')`;
+  return `ga('send', 'event', 'link', '${kind}', '${title}')`;
 };
 
 const genarateGaDown = (kind, title) => {
-  return `ga('send', 'event', 'download', '${kind}\', '${title}\')`;
+  return `ga('send', 'event', 'download', '${kind}', '${title}')`;
 };
 
 export const other = [

@@ -3,8 +3,8 @@
     <h1>Document</h1>
     <div v-for="item in items" :key="item.href">
       <a :href="item.href" target="_blank" rel="noopener" :onClick="item.ga">
-        <span style="color:#000">{{item.day}}</span>
-        {{item.title}}
+        <span style="color:#000">{{ item.day }}</span>
+        {{ item.title }}
       </a>
     </div>
     <div align="right">

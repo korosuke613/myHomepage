@@ -15,7 +15,7 @@
           data-full-width-responsive="true"
         ></ins>
         <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
+          (adsbygoogle = window.adsbygoogle || []).push({});
         </script>
         <br />
         <div class="text-center">

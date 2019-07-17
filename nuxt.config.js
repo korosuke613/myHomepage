@@ -9,7 +9,7 @@ export default {
   },
   router: {
     base: process.env.BASE_DIR || "/",
-    extendRoutes(routes, resolve) {
+    extendRoutes(routes /*, resolve*/) {
       const aliases = routes.map(route => ({
         path: /\/$/.test(route.path)
           ? `${route.path}index.html`

@@ -32,8 +32,8 @@
           class="sns"
         >
           <span class="fa-stack">
-            <i class="fa fa-square fa-stack-1x"></i>
-            <i class="fa fa-search fa-stack-1x fa-inverse"></i>
+            <i class="fa fa-square fa-stack-1x" />
+            <i class="fa fa-search fa-stack-1x fa-inverse" />
           </span>Qiita
         </a>
       </li>

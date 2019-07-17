@@ -14,15 +14,15 @@
       </p>
       <div v-for="item in hatena" :key="item.href">
         <a :href="item.href" target="_blank" rel="noopener" :onClick="item.ga">
-          <span style="color:#000">{{item.day}}</span>
-          {{item.title}}
+          <span style="color:#000">{{ item.day }}</span>
+          {{ item.title }}
         </a>
       </div>
       <h2>Other</h2>
       <div v-for="item in other" :key="item.href">
         <a :href="item.href" target="_blank" rel="noopener" :onClick="item.ga">
-          <span style="color:#000">{{item.day}}</span>
-          {{item.title}}
+          <span style="color:#000">{{ item.day }}</span>
+          {{ item.title }}
         </a>
       </div>
     </div>

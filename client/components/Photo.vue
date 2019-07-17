@@ -24,7 +24,7 @@
 
 <script>
 const genarateGA = title => {
-  return `ga('send', 'event', 'photo', 'photo', '${title}\')`;
+  return `ga('send', 'event', 'photo', 'photo', '${title}')`;
 };
 
 export default {
