@@ -1,0 +1,10 @@
+{
+    "name": "my-homepage",
+    "dockerComposeFile": "docker-compose.yml",
+    "extensions": [
+        "formulahendry.terminal",
+    ],
+    "service": "node",
+    "workspaceFolder": "/home/www/homepage",
+    "shutdownAction": "stopCompose"
+}

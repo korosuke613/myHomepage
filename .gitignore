@@ -3,3 +3,6 @@ node_modules
 dist/
 sw.js
 hatena.json
+.DS_Store
+yarn-error.log
+.docker-sync
