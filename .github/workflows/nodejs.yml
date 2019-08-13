@@ -20,3 +20,4 @@ jobs:
         yarn
         node .circleci/generate_hatena.js
         yarn generate
+        echo Finish!!!!!!
