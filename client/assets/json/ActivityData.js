@@ -4,6 +4,18 @@ const genarateGA = day => {
 
 export const items = [
   {
+    href: "https://ses.sigse.jp/2019/accepted.html",
+    ga: genarateGA("SES2019"),
+    day: "2019/08",
+    title: "SES2019(査読有り) 論文発表"
+  },
+  {
+    href: "https://korosuke613.hatenablog.com/entry/2019/06/24/171246",
+    ga: genarateGA("latex-docker"),
+    day: "2019/06",
+    title: "korosuke613/ubuntu-texlive-ja-devcontainer"
+  },
+  {
     href: "https://github.com/korosuke613/book-info-from-amazon",
     ga: genarateGA("BIFA"),
     day: "2019/03",
