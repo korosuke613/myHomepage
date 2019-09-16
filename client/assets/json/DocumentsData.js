@@ -8,6 +8,12 @@ const genarateGaDown = (kind, title) => {
 
 export const other = [
   {
+    href: "https://www.slideshare.net/FutaHirakoba/web-api-the-good-parts-webapi",
+    title: "Web API The Good Partsの紹介 ~美しいWebAPIの作り方~",
+    ga: genarateGA("slide", "webapi"),
+    day: "2018/09"
+  },
+  {
     href: "https://qiita.com/Shitimi_613/items/9706d57fb7bc17cbed0e",
     title: "DockerでらくらくLaTeX環境構築",
     ga: genarateGA("qiita", "docker-latex"),
