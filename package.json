@@ -22,6 +22,7 @@
     "imagemin-pngquant": "^7.0.0",
     "moment": "^2.24.0",
     "nuxt": "^2.6.3",
-    "webp-loader": "^0.4.0"
+    "webp-loader": "^0.4.0",
+    "serialize-javascript": "2.1.1"
   }
 }
