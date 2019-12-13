@@ -11,12 +11,14 @@ GitHub Pagesを使ってページをデプロイしています。実際に生�
 ## Usage
 
 ```bash
+yarn install
 yarn dev
 ```
 
 ### On VS Code Remote Container
 
 ```bash
+cd .devcontainer
 docker-sync start
 ```
 
