@@ -4,6 +4,24 @@ const genarateGA = day => {
 
 export const items = [
   {
+    href: "https://korosuke613.hatenablog.com/entry/2019/09/12/211308",
+    ga: genarateGA("Cybozu_riyuu"),
+    day: "2019/12",
+    title: "僕がサイボウズに入社する理由"
+  },
+  {
+    href: "https://www.etrobo.jp/cs-2019-result/",
+    ga: genarateGA("et2019_cs"),
+    day: "2019/11",
+    title: "ETロボコン2019 全国大会出場(DA,14チーム中10位,モデルランクB)"
+  },
+  {
+    href: "https://www.etrobo.jp/%e3%80%90%e4%b9%9d%e5%b7%9e%e5%8d%97%e5%9c%b0%e5%8c%ba%e3%80%91%e5%9c%b0%e5%8c%ba%e5%a4%a7%e4%bc%9a%e7%b5%90%e6%9e%9c/",
+    ga: genarateGA("et2019_ls"),
+    day: "2019/09",
+    title: "ETロボコン2019 九州南大会(DA,総合優勝,モデルランクC,IPA賞)"
+  },
+  {
     href: "https://ses.sigse.jp/2019/accepted.html",
     ga: genarateGA("SES2019"),
     day: "2019/08",
