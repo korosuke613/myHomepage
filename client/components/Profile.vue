@@ -26,7 +26,7 @@
             rel="noopener"
             onClick="ga('send', 'event', 'link', 'other', 'etrobocon2018')"
           >ETロボコン</a>でC++を扱っています。
-          学部の頃の研究でPythonを扱っていました。また、Javascriptを勉強中です。
+          学部の頃の研究でPythonを扱っていました。また、Javascript/Typescriptを勉強中です。
           <br />
           <a
             href="https://github.com/korosuke613/spec2test"
@@ -48,10 +48,15 @@
             rel="noopener"
             onClick="ga('send', 'event', 'link', 'other', 'hatenablog')"
           >ブログ始めました。</a>
-          <br />就職決まりました。2020年4月から東京です。
+          <br />就職決まりました。2020年4月から<a
+            href="https://cybozu.co.jp/"
+            target="_blank"
+            rel="noopener"
+            onClick="ga('send', 'event', 'link', 'other', 'cybozu')"
+          >サイボウズ</a>（東京）で働きます。
         </p>
         <p>
-          <span itemprop="datePublished" content="2019-06-21">令和元年6月21日現在</span>
+          <span itemprop="datePublished" content="2019-06-21">令和元年12月13日現在</span>
         </p>
       </div>
       <div class="col-sm-6">
