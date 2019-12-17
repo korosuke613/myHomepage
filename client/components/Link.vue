@@ -4,23 +4,23 @@
     <ul class="list-inline">
       <li>
         <a
-          href="https://korosuke613.hatenablog.com"
-          target="_blank"
-          rel="noopener"
-          onClick="ga('send', 'event', 'link', 'other', 'hatenablog')"
-        >
-          <i class="fa fa-sticky-note">Blog</i>
-        </a>
-      </li>
-      <li>
-        <a
           href="https://github.com/korosuke613"
           target="_blank"
           rel="noopener"
           onClick="ga('send', 'event', 'link', 'sns', 'Github')"
           class="sns"
         >
-          <i class="fa fa-github">Github</i>
+          <img src="https://img.shields.io/badge/-Github-181717?style=flat&logo=github" />
+        </a>
+      </li>
+      <li>
+        <a
+          href="https://korosuke613.hatenablog.com"
+          target="_blank"
+          rel="noopener"
+          onClick="ga('send', 'event', 'link', 'other', 'hatenablog')"
+        >
+          <img src="https://img.shields.io/badge/-Blog-9F55FF?style=flat&logo=blogger" />
         </a>
       </li>
       <li>
@@ -32,8 +32,7 @@
           class="sns"
         >
           <span class="fa-stack">
-            <i class="fa fa-square fa-stack-1x" />
-            <i class="fa fa-search fa-stack-1x fa-inverse" />
+            <img src="https://img.shields.io/badge/-Qiita-55C500?style=flat&logo=qiita&logoColor=white" />
           </span>Qiita
         </a>
       </li>
@@ -45,7 +44,7 @@
           onClick="ga('send', 'event', 'link', 'sns', 'Twitter')"
           class="sns"
         >
-          <i class="fa fa-twitter">Twitter</i>
+          <img src="https://img.shields.io/badge/-Twitter-1DA1F2?style=flat&logo=twitter&logoColor=white" />
         </a>
       </li>
       <li>
@@ -56,7 +55,7 @@
           onClick="ga('send', 'event', 'link', 'sns', 'Facebook')"
           class="sns"
         >
-          <i class="fa fa-facebook">Facebook</i>
+          <img src="https://img.shields.io/badge/-Facebook-1877F2?style=flat&logo=facebook&logoColor=white" />
         </a>
       </li>
       <li>
@@ -67,7 +66,7 @@
           onClick="ga('send', 'event', 'link', 'sns', 'instagram')"
           class="sns"
         >
-          <i class="fa fa-instagram">Instagram</i>
+          <img src="https://img.shields.io/badge/-Instagram-E4405F?style=flat&logo=instagram&logoColor=white" />
         </a>
       </li>
     </ul>
