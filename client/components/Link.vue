@@ -20,7 +20,7 @@
           rel="noopener"
           onClick="ga('send', 'event', 'link', 'other', 'hatenablog')"
         >
-          <img src="https://img.shields.io/badge/-Blog-9F55FF?style=flat&logo=blogger" />
+          <img src="https://img.shields.io/badge/-Blog-9F55FF?style=flat&logo=blogger&logoColor=white" />
         </a>
       </li>
       <li>
@@ -31,9 +31,7 @@
           onClick="ga('send', 'event', 'link', 'sns', 'Qiita')"
           class="sns"
         >
-          <span class="fa-stack">
-            <img src="https://img.shields.io/badge/-Qiita-55C500?style=flat&logo=qiita&logoColor=white" />
-          </span>Qiita
+          <img src="https://img.shields.io/badge/-Qiita-55C500?style=flat&logo=qiita&logoColor=white" />
         </a>
       </li>
       <li>
