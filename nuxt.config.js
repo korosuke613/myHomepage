@@ -81,14 +81,13 @@ export default {
         property: "og:url",
         content: "https://korosuke613.github.io"
       },
-      //{ hid: 'og:image', property: 'og:image', content: 'https://github.com/TakaShinoda/beeenowiki/raw/master/src/img/beeno1.jpg' },
-      //{ hid: 'og:image:width', property: 'og:image:width', content: '1029' },
-      //{ hid: 'og:image:height', property: 'og:image:height', content: '1239' },
+      { hid: 'og:image', property: 'og:image', content: 'https://raw.githubusercontent.com/korosuke613/myHomepage/master/client/assets/images/myPhoto.jpg' },
       {
-        hid: "description",
-        name: "description",
+        hid: "og:description",
         content: "ひらこば ふうたのホームページ"
-      }
+      },
+      { name: 'twitter:card', content: 'summary_large_image' },
+      { name: 'twitter:site', content: '@shitimi_613' },
     ],
     script: [
       {
