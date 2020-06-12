@@ -4,10 +4,28 @@ const genarateGA = day => {
 
 export const items = [
   {
+    href: "https://cybozu.co.jp/",
+    ga: genarateGA("join_cybozu"),
+    day: "2020/04",
+    title: "サイボウズ株式会社に入社しました"
+  },
+  {
+    href: "https://github.com/covid19-miyazaki/covid19",
+    ga: genarateGA("covid19-miyazaki"),
+    day: "2020/03",
+    title: "宮崎県新型コロナウィルス対策サイト(非公式)を立ち上げました"
+  },
+  {
+    href: "https://www.facebook.com/futa.hirakoba.5/posts/2557731037840517",
+    ga: genarateGA("graduate_miyazaki-univ"),
+    day: "2020/03",
+    title: "宮崎大学大学院を修了しました"
+  },
+  {
     href: "https://matcher.jp/plans/120357",
     ga: genarateGA("matcher_miyazaki"),
     day: "2019/12",
-    title: "就活相談にのるので、カフェでゆったり話しましょう！"
+    title: "(終了しました)就活相談にのるので、カフェでゆったり話しましょう！"
   },
   {
     href: "https://korosuke613.hatenablog.com/entry/2019/09/12/211308",
