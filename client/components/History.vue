@@ -48,6 +48,13 @@
       rel="noopener"
       onClick="ga('send', 'event', 'link', 'other', 'Miyadai_KatLab')"
     >片山(徹)研究室</a>
+    <br />2020~20XX: 
+    <a
+      href="https://cybozu.co.jp/"
+      target="_blank"
+      rel="noopener"
+      onClick="ga('send', 'event', 'link', 'other', 'cybozu')"
+    >サイボウズ株式会社</a>
     <br />
     <br />2014~2015: 宮崎大学国際交流宿舎 会計
     <br />2015~2016: 宮崎大学国際交流宿舎 寮長

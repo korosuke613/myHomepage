@@ -11,7 +11,7 @@
           <small>（写真真ん中）</small>
         </h2>
         <p>
-          宮崎大学 工学研究科 工学専攻 機械・情報系コース 修士課程2年 片山(徹)研究室所属
+          サイボウズ株式会社 開発本部
           <br />
           <br />
           <a
@@ -25,38 +25,33 @@
             target="_blank"
             rel="noopener"
             onClick="ga('send', 'event', 'link', 'other', 'etrobocon2018')"
-          >ETロボコン</a>でC++を扱っています。
-          学部の頃の研究でPythonを扱っていました。また、Javascript/Typescriptを勉強中です。
+          >ETロボコン</a>でC++を扱っていました。
+          学部の頃の研究ではPythonを扱っていました。最近はGoを勉強中です。
           <br />
+          学部では
           <a
             href="https://github.com/korosuke613/spec2test"
             target="_blank"
             rel="noopener"
             onClick="ga('send', 'event', 'link', 'other', 'spec2test')"
           >仕様書からテストケースを生成する研究</a>をしていました。
-          <br />現在は
+          <br />大学院では
           <a
             href="https://github.com/korosuke613/BWDM"
             target="_blank"
             rel="noopener"
             onClick="ga('send', 'event', 'link', 'other', 'BWDM')"
-          >形式手法を用いて記述された仕様書からテストケースを生成する研究</a>を行っています。
+          >形式手法を用いて記述された仕様書からテストケースを生成する研究</a>を行っていました。
           <br />
           <a
             href="https://korosuke613.hatenablog.com"
             target="_blank"
             rel="noopener"
             onClick="ga('send', 'event', 'link', 'other', 'hatenablog')"
-          >ブログ始めました。</a>
-          <br />就職決まりました。2020年4月から<a
-            href="https://cybozu.co.jp/"
-            target="_blank"
-            rel="noopener"
-            onClick="ga('send', 'event', 'link', 'other', 'cybozu')"
-          >サイボウズ</a>（東京）で働きます。
-        </p>
+          >ブログやってます。が、最近更新できてません。</a>
+          <br />
         <p>
-          <span itemprop="datePublished" content="2019-06-21">令和元年12月13日現在</span>
+          <span itemprop="datePublished" content="2020-06-12">令和2年6月13日現在</span>
         </p>
       </div>
       <div class="col-sm-6">
