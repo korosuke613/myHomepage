@@ -70,12 +70,21 @@
     </ul>
     <nuxt-link to="/dormitory_introduction">宮崎大学国際交流宿舎の紹介ページ(2017)</nuxt-link>
     <nuxt-link to="/dormitory">宮崎大学国際交流宿舎の寮生向けページ(2017)</nuxt-link>
+    <br />
+    <a
+      href="http://earth.cs.miyazaki-u.ac.jp/"
+      target="_blank"
+      rel="noopener"
+      onClick="ga('send', 'event', 'link', 'other', 'katlab')"
+    >片山徹郎研究室</a>
+    <br />
     <a
       href="http://earth.cs.miyazaki-u.ac.jp/~miyaji/"
       target="_blank"
       rel="noopener"
       onClick="ga('send', 'event', 'link', 'other', 'Miyaji')"
     >研究室の友達、宮地俊宏くんのHP</a>
+    <br />
     <a
       href="https://tatsumi0000.github.io/tatsumi0000/#/top"
       target="_blank"
