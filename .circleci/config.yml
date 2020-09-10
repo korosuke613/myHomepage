@@ -58,7 +58,7 @@ jobs:
       - run: git config user.name "korosuke613+circleci"
       - add_ssh_keys:
           fingerprints:
-            - "69:d7:e1:57:1c:f4:3c:0f:7c:f3:4f:4e:f9:3e:09:e1"
+            - "ae:8d:b2:b2:4f:ec:bd:7c:d8:23:23:90:8c:fd:b2:5b"
       - run:
           name: Deploy
           command: yarn deploy
