@@ -34,7 +34,7 @@ export default {
     "@nuxtjs/google-analytics",
     "@nuxtjs/sitemap",
     "@nuxtjs/pwa",
-    "@bazzite/nuxt-optimized-images"
+    "@aceforth/nuxt-optimized-images"
   ],
   optimizedImages: {
     optimizeImages: true,
