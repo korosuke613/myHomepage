@@ -1,5 +1,5 @@
 # korosuke613.github.io  
-[![CircleCI](https://circleci.com/gh/korosuke613/myHomepage/tree/master.svg?style=svg)](https://circleci.com/gh/korosuke613/myHomepage/tree/master)
+[![CircleCI](https://circleci.com/gh/korosuke613/myHomepage/tree/main.svg?style=svg)](https://circleci.com/gh/korosuke613/myHomepage/tree/main)
 
 平木場風太のホームページです。
 [HP of Korosuke613](https://korosuke613.github.io)  
