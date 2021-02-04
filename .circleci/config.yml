@@ -76,7 +76,7 @@ workflows:
       - build:
           filters:
             branches:
-              ignore: master
+              ignore: main
 
   cron:
     triggers:
@@ -85,7 +85,7 @@ workflows:
           filters:
             branches:
               only:
-                - master
+                - main
     jobs:
       - deploy
 
@@ -94,4 +94,4 @@ workflows:
       - deploy:
           filters:
             branches:
-              only: master
+              only: main
