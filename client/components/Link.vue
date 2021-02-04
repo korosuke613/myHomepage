@@ -25,6 +25,16 @@
       </li>
       <li>
         <a
+          href="https://zenn.dev/korosuke613"
+          target="_blank"
+          rel="noopener"
+          onClick="ga('send', 'event', 'link', 'other', 'zenn')"
+        >
+          <img src="https://img.shields.io/badge/-Zenn-3EA8FF?style=flat&logo=zenn&logoColor=white" />
+        </a>
+      </li>
+      <li>
+        <a
           href="http://qiita.com/Shitimi_613"
           target="_blank"
           rel="noopener"
