@@ -15,11 +15,4 @@ yarn install
 yarn dev
 ```
 
-### On VS Code Remote Container
 
-```bash
-cd .devcontainer
-docker-sync start
-```
-
-Next, reopen folder in container. 
