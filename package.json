@@ -22,7 +22,7 @@
     "imagemin-mozjpeg": "^9.0.0",
     "imagemin-pngquant": "^9.0.2",
     "moment": "^2.29.1",
-    "nuxt": "^2.14.4",
+    "nuxt": "^2.15.4",
     "prettier": "^2.2.1",
     "serialize-javascript": "5.0.1",
     "webp-loader": "^0.4.0",
