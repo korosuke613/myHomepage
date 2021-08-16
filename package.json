@@ -18,7 +18,7 @@
     "imagemin-mozjpeg": "^9.0.0",
     "imagemin-pngquant": "^9.0.2",
     "moment": "^2.29.1",
-    "nuxt": "^2.15.7",
+    "nuxt": "^2.15.8",
     "serialize-javascript": "5.0.1",
     "webp-loader": "^0.4.0",
     "xml2js": "^0.4.23"
