@@ -70,9 +70,11 @@
 
 <script>
 import myPhoto from "./atoms/myPhoto.vue";
+import History from "~/components/History";
 export default {
   components: {
     myPhoto,
+    History
   },
 };
 </script>
