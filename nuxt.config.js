@@ -45,7 +45,7 @@ export default {
     exclude: []
   },
   googleAnalytics: {
-    id: "UA-91531907-1"
+    id: "G-T9J2NY25JV"
   },
   "google-adsense": {
     id: "ca-pub-7246355771451460"
