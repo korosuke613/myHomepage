@@ -31,7 +31,7 @@ export default {
   srcDir: "client/",
   modules: [
     "@nuxtjs/google-adsense",
-    "@nuxtjs/google-analytics",
+    "@nuxtjs/google-gtag",
     "@nuxtjs/sitemap",
     "@nuxtjs/pwa",
     "@aceforth/nuxt-optimized-images"
@@ -44,8 +44,9 @@ export default {
     hostname: "https://korosuke613.github.io",
     exclude: []
   },
-  googleAnalytics: {
-    id: "G-T9J2NY25JV"
+  "google-gtag": {
+    id: "G-T9J2NY25JV",
+    debug: true // enable to track in dev mode
   },
   "google-adsense": {
     id: "ca-pub-7246355771451460"
