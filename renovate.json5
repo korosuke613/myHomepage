@@ -25,6 +25,7 @@
       "matchManagers": ["npm"],
       "groupName": "npm",
       "automerge": true,
+      "excludePackageNames": ["webp-loader", "imagemin-mozjpeg"]
     }
   ]
 }
