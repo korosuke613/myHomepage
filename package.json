@@ -3,22 +3,27 @@
   "scripts": {
     "build": "DEPLOY_ENV=GH_PAGES nuxt build",
     "generate": "DEPLOY_ENV=GH_PAGES nuxt generate",
-    "dev": "NUXT_HOST=0.0.0.0 NUXT_PORT=3000 nuxt",
+    "dev": "nuxt",
     "deploy": "gh-pages -d dist -t -b master -r https://github.com/korosuke613/korosuke613.github.io",
     "deploy:local": "gh-pages -d dist -t",
     "dev-debug": "node --inspect-brk=9229 node_modules/nuxt/bin/nuxt",
     "lint": "yarn eslint --ext .js,.vue --ignore-path .gitignore .",
-    "lint:fix": "yarn eslint --fix --ext .js,.vue --ignore-path .gitignore ."
+    "lint:fix": "yarn eslint --fix --ext .js,.ts,.vue --ignore-path .gitignore .",
+    "vrt:update": "playwright test --update-snapshots",
+    "vrt": "playwright test"
   },
   "devDependencies": {
     "@aceforth/nuxt-optimized-images": "1.4.0",
     "@nuxt/types": "2.15.8",
-    "@nuxtjs/google-adsense": "2.0.0",
     "@nuxtjs/eslint-config": "9.0.0",
+    "@nuxtjs/google-adsense": "2.0.0",
     "@nuxtjs/google-analytics": "2.4.0",
     "@nuxtjs/google-gtag": "1.0.4",
     "@nuxtjs/pwa": "3.3.5",
     "@nuxtjs/sitemap": "2.4.0",
+    "@playwright/test": "^1.20.2",
+    "@typescript-eslint/eslint-plugin": "^5.18.0",
+    "@typescript-eslint/parser": "^5.18.0",
     "axios": "0.26.1",
     "eslint": "8.11.0",
     "eslint-plugin-nuxt": "3.2.0",
@@ -28,6 +33,7 @@
     "moment": "2.29.2",
     "nuxt": "2.15.8",
     "serialize-javascript": "6.0.0",
+    "typescript": "^4.6.3",
     "webp-loader": "0.4.0",
     "xml2js": "0.4.23"
   }

@@ -6,10 +6,23 @@ module.exports = {
   ignorePatterns: [
     'client/static/**/*'
   ],
-  overrides: [{
-    files: ['client/pages/**/*', 'client/layouts/**/*'],
-    rules: {
-      'vue/multi-word-component-names': ['off']
+  overrides: [
+    {
+      files: ['client/pages/**/*', 'client/layouts/**/*'],
+      rules: {
+        'vue/multi-word-component-names': ['off']
+      }
+    },
+    {
+      files: ['*.ts'],
+      parser: '@typescript-eslint/parser',
+      plugins: [
+        '@typescript-eslint'
+      ],
+      extends: [
+        'eslint:recommended',
+        'plugin:@typescript-eslint/recommended'
+      ]
     }
-  }]
+  ]
 }

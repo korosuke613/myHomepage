@@ -5,3 +5,5 @@ sw.js
 .DS_Store
 yarn-error.log
 .docker-sync
+test-results
+snapshots.spec.ts-snapshots/

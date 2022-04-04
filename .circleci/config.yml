@@ -4,6 +4,12 @@ executors:
     working_directory: ~/workspace
     docker:
       - image: cimg/node:16.14.2
+  vrt:
+    working_directory: ~/workspace
+    docker:
+      - image: mcr.microsoft.com/playwright:focal
+    environment:
+      NODE_ENV: development # Needed if playwright is in `devDependencies`
 
 jobs:
   build:
@@ -39,6 +45,56 @@ jobs:
       - run:
           name: Lint
           command: yarn lint
+      - save_cache:
+          key: projectname-{{ .Branch }}-{{ checksum "yarn.lock" }}
+          paths:
+            - ~/workspace/node_modules
+            - ~/.cache/yarn/
+
+  visual-regression-testing:
+    executor: vrt
+    resource_class: large
+    steps:
+      - checkout
+      - restore_cache:
+          key: projectname-{{ .Branch }}-{{ checksum "yarn.lock" }}
+      - run:
+          name: "[expected] Setup main branch"
+          command: |
+            mkdir tmp
+            cd tmp
+            git clone --depth=1 https://github.com/korosuke613/myHomepage
+            yarn install --frozen-lockfile
+      - run:
+          name: "[expected] Run dev server on main"
+          background: true
+          command: |
+            cd tmp
+            NUXT_PORT=8080 yarn dev
+      - run:
+          name: "[actual] Install dependencies"
+          command: yarn install --frozen-lockfile
+      - run:
+          name: "[actual] Run dev server on pr"
+          background: true
+          command: |
+            NUXT_PORT=8081 yarn dev
+      - run:
+          name: Wait launch dev server
+          command: sleep 20
+      - run:
+          name: "[expected] VRT - main"
+          command: NUXT_PORT=8080 yarn vrt:update
+      - run:
+          name: "[actual] VRT - pr"
+          command: NUXT_PORT=8081 yarn vrt
+      - store_artifacts:
+          path: tests/snapshots.spec.ts-snapshots
+          destination: expected-snapshots
+      - store_artifacts:
+          path: test-results
+      - store_test_results:
+          path: test-results/results.xml
       - save_cache:
           key: projectname-{{ .Branch }}-{{ checksum "yarn.lock" }}
           paths:
@@ -83,6 +139,10 @@ workflows:
     jobs:
       - build
       - lint
+      - visual-regression-testing:
+          filters:
+            branches:
+              ignore: main
 
   cron:
     triggers:
