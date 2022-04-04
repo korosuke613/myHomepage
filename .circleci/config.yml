@@ -3,7 +3,7 @@ executors:
   default:
     working_directory: ~/workspace
     docker:
-      - image: circleci/node:14.15
+      - image: cimg/node:16.14.2
 
 jobs:
   build:
@@ -19,7 +19,7 @@ jobs:
             echo "Yarn v$(yarn --version)"
       - run:
           name: Install dependencies
-          command: yarn
+          command: yarn install --frozen-lockfile
       - run:
           name: Get Hatena
           command: node .circleci/generate_hatena.js
@@ -44,7 +44,7 @@ jobs:
             echo "Yarn v$(yarn --version)"
       - run:
           name: Install dependencies
-          command: yarn
+          command: yarn install --frozen-lockfile
       - run:
           name: Get Hatena
           command: node .circleci/generate_hatena.js
