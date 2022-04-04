@@ -15,4 +15,9 @@ yarn install
 yarn dev
 ```
 
+## CI Insights
+### build_and_test workflow on main
+[![InsightsSnapshot](https://dl.circleci.com/insights-snapshot/gh/korosuke613/myHomepage/main/build_and_test/badge.svg)](https://app.circleci.com/insights/github/korosuke613/myHomepage/workflows/build_and_test?branch=main)
 
+### publish workflow on main
+[![InsightsSnapshot](https://dl.circleci.com/insights-snapshot/gh/korosuke613/myHomepage/main/publish/badge.svg)](https://app.circleci.com/insights/github/korosuke613/myHomepage/workflows/publish?branch=main)
