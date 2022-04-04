@@ -6,17 +6,22 @@
     "dev": "NUXT_HOST=0.0.0.0 NUXT_PORT=3000 nuxt",
     "deploy": "gh-pages -d dist -t -b master -r https://github.com/korosuke613/korosuke613.github.io",
     "deploy:local": "gh-pages -d dist -t",
-    "dev-debug": "node --inspect-brk=9229 node_modules/nuxt/bin/nuxt"
+    "dev-debug": "node --inspect-brk=9229 node_modules/nuxt/bin/nuxt",
+    "lint": "yarn eslint --ext .js,.vue --ignore-path .gitignore .",
+    "lint:fix": "yarn eslint --fix --ext .js,.vue --ignore-path .gitignore ."
   },
   "devDependencies": {
     "@aceforth/nuxt-optimized-images": "^1.4.0",
     "@nuxt/types": "^2.15.8",
     "@nuxtjs/google-adsense": "^2.0.0",
+    "@nuxtjs/eslint-config": "^9.0.0",
     "@nuxtjs/google-analytics": "^2.4.0",
     "@nuxtjs/google-gtag": "^1.0.4",
     "@nuxtjs/pwa": "^3.3.5",
     "@nuxtjs/sitemap": "^2.4.0",
     "axios": "^0.26.1",
+    "eslint": "^8.11.0",
+    "eslint-plugin-nuxt": "^3.2.0",
     "gh-pages": "^3.2.3",
     "imagemin-mozjpeg": "^9.0.0",
     "imagemin-pngquant": "^9.0.2",
