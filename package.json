@@ -20,7 +20,7 @@
     "gh-pages": "^3.2.3",
     "imagemin-mozjpeg": "^9.0.0",
     "imagemin-pngquant": "^9.0.2",
-    "moment": "^2.29.1",
+    "moment": "^2.29.2",
     "nuxt": "^2.15.7",
     "serialize-javascript": "6.0.0",
     "webp-loader": "^0.4.0",
