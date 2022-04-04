@@ -51,43 +51,61 @@ jobs:
             - ~/workspace/node_modules
             - ~/.cache/yarn/
 
-  visual-regression-testing:
+  vrt-init:
     executor: vrt
-    resource_class: large
+    resource_class: medium+
     steps:
       - checkout
       - restore_cache:
-          key: projectname-{{ .Branch }}-{{ checksum "yarn.lock" }}
+          key: projectname-main-{{ checksum "yarn.lock" }}
       - run:
-          name: "[expected] Setup main branch"
-          command: |
-            mkdir tmp
-            cd tmp
-            git clone --depth=1 https://github.com/korosuke613/myHomepage
-            yarn install --frozen-lockfile
+          name: Switch main
+          command: git switch main
       - run:
-          name: "[expected] Run dev server on main"
-          background: true
-          command: |
-            cd tmp
-            NUXT_PORT=8080 yarn dev
-      - run:
-          name: "[actual] Install dependencies"
+          name: "Install dependencies"
           command: yarn install --frozen-lockfile
       - run:
-          name: "[actual] Run dev server on pr"
+          name: "Run dev server"
           background: true
-          command: |
-            NUXT_PORT=8081 yarn dev
+          command: yarn dev
       - run:
-          name: Wait launch dev server
+          name: "Wait launch dev server"
           command: sleep 20
       - run:
-          name: "[expected] VRT - main"
-          command: NUXT_PORT=8080 yarn vrt:update
+          name: "VRT init"
+          command: yarn vrt:update
+      - persist_to_workspace:
+          root: ~/workspace
+          paths:
+            - tests/snapshots.spec.ts-snapshots
+      - save_cache:
+          key: projectname-main-{{ checksum "yarn.lock" }}
+          paths:
+            - ~/workspace/node_modules
+            - ~/.cache/yarn/
+
+  vrt-check:
+    executor: vrt
+    resource_class: medium+
+    steps:
+      - checkout
+      - attach_workspace:
+          at: ~/workspace
+      - restore_cache:
+          key: projectname-{{ .Branch }}-{{ checksum "yarn.lock" }}
       - run:
-          name: "[actual] VRT - pr"
-          command: NUXT_PORT=8081 yarn vrt
+          name: "Install dependencies"
+          command: yarn install --frozen-lockfile
+      - run:
+          name: "Run dev server"
+          background: true
+          command: yarn dev
+      - run:
+          name: "Wait launch dev server"
+          command: sleep 20
+      - run:
+          name: "VRT check"
+          command: yarn vrt
       - store_artifacts:
           path: tests/snapshots.spec.ts-snapshots
           destination: expected-snapshots
@@ -139,11 +157,20 @@ workflows:
     jobs:
       - build
       - lint
-      - visual-regression-testing:
+
+
+  visual-regression-testing:
+    jobs:
+      - vrt-init:
           filters:
             branches:
               ignore: main
-
+      - vrt-check:
+          requires:
+            - vrt-init
+          filters:
+            branches:
+              ignore: main
   cron:
     triggers:
       - schedule:
