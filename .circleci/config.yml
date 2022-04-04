@@ -13,11 +13,6 @@ jobs:
       - restore_cache:
           key: projectname-{{ .Branch }}-{{ checksum "yarn.lock" }}
       - run:
-          name: System information
-          command: |
-            echo "Node $(node -v)"
-            echo "Yarn v$(yarn --version)"
-      - run:
           name: Install dependencies
           command: yarn install --frozen-lockfile
       - run:
@@ -31,17 +26,31 @@ jobs:
           paths:
             - ~/workspace/node_modules
             - ~/.cache/yarn/
-  deploy:
+
+  lint:
     executor: default
     steps:
       - checkout
       - restore_cache:
           key: projectname-{{ .Branch }}-{{ checksum "yarn.lock" }}
       - run:
-          name: System information
-          command: |
-            echo "Node $(node -v)"
-            echo "Yarn v$(yarn --version)"
+          name: Install dependencies
+          command: yarn install --frozen-lockfile
+      - run:
+          name: Lint
+          command: yarn lint
+      - save_cache:
+          key: projectname-{{ .Branch }}-{{ checksum "yarn.lock" }}
+          paths:
+            - ~/workspace/node_modules
+            - ~/.cache/yarn/
+
+  deploy:
+    executor: default
+    steps:
+      - checkout
+      - restore_cache:
+          key: projectname-{{ .Branch }}-{{ checksum "yarn.lock" }}
       - run:
           name: Install dependencies
           command: yarn install --frozen-lockfile
@@ -69,11 +78,14 @@ jobs:
             - ~/.cache/yarn/
 
 
-
 workflows:
   build_and_test:
     jobs:
       - build:
+          filters:
+            branches:
+              ignore: main
+      - lint:
           filters:
             branches:
               ignore: main

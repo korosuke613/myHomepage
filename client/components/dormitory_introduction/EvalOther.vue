@@ -6,7 +6,7 @@
       <table class="table table-striped">
         <thead>
           <tr>
-            <th></th>
+            <th />
             <th>国寮</th>
             <th>男寮・女寮</th>
           </tr>

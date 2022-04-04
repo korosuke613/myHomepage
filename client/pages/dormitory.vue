@@ -7,9 +7,11 @@
       </h1>
       <div id="dormitory">
         2014年から2018年までの間に宮崎大学国際交流宿舎の寮生だった人向けのページです。
-        <br />宮崎大学国際交流宿舎への入寮を検討している人は
-        <nuxt-link to="/dormitory_introduction">こちら</nuxt-link>
-        <hr />
+        <br>宮崎大学国際交流宿舎への入寮を検討している人は
+        <nuxt-link to="/dormitory_introduction">
+          こちら
+        </nuxt-link>
+        <hr>
         <div class="col-xs-12 col-sm-7 col-md-8">
           <Docs />
         </div>
@@ -32,14 +34,13 @@
 </template>
 
 <script>
-import Docs from "@/components/dormitory/Docs.vue";
-import Notice from "@/components/dormitory/Notice.vue";
-import Youtube from "@/components/dormitory/Youtube.vue";
-import Photo from "@/components/dormitory/Photo.vue";
-import Meta from "~/assets/mixins/meta";
+import Docs from '@/components/dormitory/DormitoryDocs.vue'
+import Notice from '@/components/dormitory/DormitoryNotice.vue'
+import Youtube from '@/components/dormitory/DormitoryYoutube.vue'
+import Photo from '@/components/dormitory/DormitoryPhoto.vue'
+import Meta from '~/assets/mixins/meta'
 
 export default {
-  layout: "default",
   components: {
     Docs,
     Notice,
@@ -47,15 +48,16 @@ export default {
     Photo
   },
   mixins: [Meta],
-  data() {
+  layout: 'default',
+  data () {
     return {
       meta: {
-        title: "宮崎大学国際交流宿舎(2014-2018)",
+        title: '宮崎大学国際交流宿舎(2014-2018)',
         description:
-          "2014年から2018年までの間に宮崎大学国際交流宿舎の寮生だった人向けのページです。",
+          '2014年から2018年までの間に宮崎大学国際交流宿舎の寮生だった人向けのページです。',
         url: this.$nuxt.$route.path
       }
-    };
+    }
   }
-};
+}
 </script>
