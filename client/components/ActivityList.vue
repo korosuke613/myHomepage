@@ -8,18 +8,20 @@
       </a>
     </div>
     <div align="right">
-      <router-link to="/activity">more activity</router-link>
+      <router-link to="/activity">
+        more activity
+      </router-link>
     </div>
   </div>
 </template>
 
 <script>
-import { items } from "@/assets/json/ActivityData.js";
+import { items } from '@/assets/json/ActivityData.js'
 export default {
-  data() {
+  data () {
     return {
       items: items.slice(0, 6)
-    };
+    }
   }
-};
+}
 </script>

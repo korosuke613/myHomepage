@@ -18,22 +18,22 @@
 </template>
 
 <script>
-import { items } from "@/assets/json/ActivityData.js";
-import Meta from "~/assets/mixins/meta";
+import { items } from '@/assets/json/ActivityData.js'
+import Meta from '~/assets/mixins/meta'
 
 export default {
-  layout: "default",
   mixins: [Meta],
+  layout: 'default',
 
-  data() {
+  data () {
     return {
-      items: items,
+      items,
       meta: {
-        title: "Activity",
-        description: "今まで作ったもの？をまとめたページです。",
+        title: 'Activity',
+        description: '今まで作ったもの？をまとめたページです。',
         url: this.$nuxt.$route.path
       }
-    };
+    }
   }
-};
+}
 </script>

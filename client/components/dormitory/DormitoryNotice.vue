@@ -35,16 +35,16 @@
 
 <script>
 export default {
-  head() {
+  head () {
     return {
       script: [
         {
-          src: "https://platform.twitter.com/widgets.js",
-          charset: "utf-8",
+          src: 'https://platform.twitter.com/widgets.js',
+          charset: 'utf-8',
           defer: true
         }
       ]
-    };
+    }
   }
-};
+}
 </script>

@@ -8,17 +8,19 @@
       </a>
     </div>
     <div align="right">
-      <router-link to="/document">more document</router-link>
+      <router-link to="/document">
+        more document
+      </router-link>
     </div>
   </div>
 </template>
 <script>
-import items from "@/assets/json/hatena.json";
+import items from '@/assets/json/hatena.json'
 export default {
-  data() {
+  data () {
     return {
       items: items.slice(0, 5)
-    };
+    }
   }
-};
+}
 </script>

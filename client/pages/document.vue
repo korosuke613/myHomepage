@@ -34,23 +34,23 @@
   </div>
 </template>
 <script>
-import hatena from "@/assets/json/hatena.json";
-import { other } from "@/assets/json/DocumentsData.js";
-import Meta from "~/assets/mixins/meta";
+import hatena from '@/assets/json/hatena.json'
+import { other } from '@/assets/json/DocumentsData.js'
+import Meta from '~/assets/mixins/meta'
 export default {
-  layout: "default",
   mixins: [Meta],
+  layout: 'default',
 
-  data() {
+  data () {
     return {
-      hatena: hatena,
-      other: other,
+      hatena,
+      other,
       meta: {
-        title: "Document",
-        description: "今まで書いた何かをまとめたページです。",
+        title: 'Document',
+        description: '今まで書いた何かをまとめたページです。',
         url: this.$nuxt.$route.path
       }
-    };
+    }
   }
-};
+}
 </script>

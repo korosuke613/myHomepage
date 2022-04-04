@@ -10,7 +10,7 @@
           <Link />
         </div>
       </div>
-      <hr />
+      <hr>
       <div class="row">
         <div class="col-sm-6">
           <Activity />
@@ -27,14 +27,13 @@
 </template>
 
 <script>
-import History from "@/components/History.vue";
-import Link from "@/components/Link.vue";
-import Activity from "@/components/Activity.vue";
-import Document from "@/components/Document.vue";
-import Photo from "@/components/Photo.vue";
-import Profile from "@/components/Profile.vue";
+import History from '@/components/HistoryList.vue'
+import Link from '@/components/LinkList.vue'
+import Activity from '@/components/ActivityList.vue'
+import Document from '@/components/DocumentList.vue'
+import Photo from '@/components/PhotoList.vue'
+import Profile from '@/components/ProfileBlock.vue'
 export default {
-  layout: "default",
   components: {
     Profile,
     History,
@@ -43,11 +42,12 @@ export default {
     Document,
     Photo
   },
-  head() {
+  layout: 'default',
+  head () {
     return {
-      title: "Korosuke613@miyazaki",
-      titleTemplate: ""
-    };
+      title: 'Korosuke613@miyazaki',
+      titleTemplate: ''
+    }
   }
-};
+}
 </script>

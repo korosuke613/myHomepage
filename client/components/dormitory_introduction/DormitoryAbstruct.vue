@@ -15,8 +15,8 @@
           class="photo dorm"
         >
           <picture>
-            <source :srcset="items[0].mini_webp" type="image/webp" />
-            <img :src="items[0].mini" class="img-responsive img-rounded" alt="国寮正面" />
+            <source :srcset="items[0].mini_webp" type="image/webp">
+            <img :src="items[0].mini" class="img-responsive img-rounded" alt="国寮正面">
           </picture>
         </a>
       </div>
@@ -26,16 +26,16 @@
 
 <script>
 export default {
-  data() {
+  data () {
     return {
       items: [
         {
-          href: require("@/assets/images/dormitory/dormitory.jpg"),
-          mini: require("@/assets/images/dormitory/dormitory.jpg"),
-          mini_webp: require("@/assets/images/dormitory/dormitory.jpg?webp")
+          href: require('@/assets/images/dormitory/dormitory.jpg'),
+          mini: require('@/assets/images/dormitory/dormitory.jpg'),
+          mini_webp: require('@/assets/images/dormitory/dormitory.jpg?webp')
         }
       ]
-    };
+    }
   }
-};
+}
 </script>
