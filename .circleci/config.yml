@@ -81,14 +81,8 @@ jobs:
 workflows:
   build_and_test:
     jobs:
-      - build:
-          filters:
-            branches:
-              ignore: main
-      - lint:
-          filters:
-            branches:
-              ignore: main
+      - build
+      - lint
 
   cron:
     triggers:
