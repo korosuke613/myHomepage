@@ -63,7 +63,9 @@ jobs:
           command: git switch main
       - run:
           name: "Install dependencies"
-          command: yarn install --frozen-lockfile
+          command: |
+            yarn install --frozen-lockfile
+            yarn playwright install
       - run:
           name: "Run dev server"
           background: true
@@ -95,7 +97,9 @@ jobs:
           key: projectname-{{ .Branch }}-{{ checksum "yarn.lock" }}
       - run:
           name: "Install dependencies"
-          command: yarn install --frozen-lockfile
+          command: |
+            yarn install --frozen-lockfile
+            yarn playwright install
       - run:
           name: "Run dev server"
           background: true
