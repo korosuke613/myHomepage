@@ -22,9 +22,9 @@
     "@nuxtjs/pwa": "3.3.5",
     "@nuxtjs/sitemap": "2.4.0",
     "@playwright/test": "1.21.1",
-    "@typescript-eslint/eslint-plugin": "5.20.0",
-    "@typescript-eslint/parser": "5.20.0",
-    "axios": "0.26.1",
+    "@typescript-eslint/eslint-plugin": "5.21.0",
+    "@typescript-eslint/parser": "5.21.0",
+    "axios": "0.27.2",
     "eslint": "8.14.0",
     "eslint-plugin-nuxt": "3.2.0",
     "gh-pages": "3.2.3",
@@ -32,7 +32,7 @@
     "imagemin-pngquant": "9.0.2",
     "moment": "2.29.3",
     "nuxt": "2.15.8",
-    "typescript": "4.6.3",
+    "typescript": "4.6.4",
     "webp-loader": "0.4.0",
     "xml2js": "0.4.23"
   }
