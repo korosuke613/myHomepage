@@ -4,7 +4,8 @@
       <div class="col-xs-12" style="background:#AAA;height:auto;">
         <a href="#top_jump" style="color:#333333">▲PAGE TOP</a>
         <br>
-        <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js" />
+        <component :is="script" src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js" async />
+
         <!-- korosuke613.github.io -->
         <ins
           class="adsbygoogle"
@@ -14,9 +15,9 @@
           data-ad-format="auto"
           data-full-width-responsive="true"
         />
-        <script>
+        <component :is="script">
           (adsbygoogle = window.adsbygoogle || []).push({});
-        </script>
+        </component>
         <br>
         <div class="text-center">
           source:

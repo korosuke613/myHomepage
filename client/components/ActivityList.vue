@@ -8,9 +8,9 @@
       </a>
     </div>
     <div align="right">
-      <router-link to="/activity">
+      <NuxtLink to="/activity">
         more activity
-      </router-link>
+      </NuxtLink>
     </div>
   </div>
 </template>

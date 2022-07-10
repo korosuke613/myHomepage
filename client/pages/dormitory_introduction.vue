@@ -5,9 +5,9 @@
       <p>宮崎大学の寮の一つ、国際交流宿舎を紹介するページです。宮崎大学の国際交流宿舎ってどうかなと思っている高校生の皆さんの参考になればと思います。</p>
       <p>
         現寮生・元寮生向けのページは
-        <nuxt-link to="/dormitory">
+        <NuxtLink to="/dormitory">
           こちら
-        </nuxt-link>
+        </NuxtLink>
       </p>
       <p>
         <strong>！注意！ このページは宮崎大学とは一切関係ありません。一寮生である私から見た国際寮を紹介するページになります。</strong>
@@ -53,9 +53,9 @@
       </div>
       <p />
       <div class="col-xs-12 text-right">
-        <nuxt-link to="/">
+        <NuxtLink to="/">
           <em>戻る</em>
-        </nuxt-link>
+        </NuxtLink>
       </div>
     </div>
   </div>
@@ -73,6 +73,8 @@ import Link from '@/components/dormitory_introduction/LinkList.vue'
 import Contribute from '@/components/dormitory_introduction/HowToContribute.vue'
 import Meta from '~/assets/mixins/meta'
 
+definePageMeta({ layout: 'default' })
+
 export default {
   components: {
     Abstruct,
@@ -86,13 +88,11 @@ export default {
     Contribute
   },
   mixins: [Meta],
-  layout: 'default',
   data () {
     return {
       meta: {
         title: '宮崎大学国際交流宿舎の紹介(2017)',
-        description: '宮崎大学の寮の一つ、国際交流宿舎を紹介するページです。',
-        url: this.$nuxt.$route.path
+        description: '宮崎大学の寮の一つ、国際交流宿舎を紹介するページです。'
       }
     }
   }

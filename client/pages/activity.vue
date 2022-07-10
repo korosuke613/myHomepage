@@ -10,9 +10,9 @@
       </div>
     </div>
     <div class="col-xs-12 text-right">
-      <nuxt-link to="/">
+      <NuxtLink to="/">
         <em>戻る</em>
-      </nuxt-link>
+      </NuxtLink>
     </div>
   </div>
 </template>
@@ -23,15 +23,13 @@ import Meta from '~/assets/mixins/meta'
 
 export default {
   mixins: [Meta],
-  layout: 'default',
 
   data () {
     return {
       items,
       meta: {
         title: 'Activity',
-        description: '今まで作ったもの？をまとめたページです。',
-        url: this.$nuxt.$route.path
+        description: '今まで作ったもの？をまとめたページです。'
       }
     }
   }

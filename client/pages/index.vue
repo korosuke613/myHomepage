@@ -33,6 +33,7 @@ import Activity from '@/components/ActivityList.vue'
 import Document from '@/components/DocumentList.vue'
 import Photo from '@/components/PhotoList.vue'
 import Profile from '@/components/ProfileBlock.vue'
+
 export default {
   components: {
     Profile,
@@ -42,7 +43,6 @@ export default {
     Document,
     Photo
   },
-  layout: 'default',
   head () {
     return {
       title: 'Korosuke613@miyazaki',

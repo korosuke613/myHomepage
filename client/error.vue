@@ -7,23 +7,27 @@
     <p>
       すみません、リンクが変わっている可能性があります。
       <br>もしかして、お探しのページは
-      <nuxt-link to="/dormitory_introduction">
+      <NuxtLink to="/dormitory_introduction">
         宮崎大学国際交流宿舎の紹介(2017)
-      </nuxt-link>
+      </NuxtLink>
     </p>
     <br>
     <p>
-      <nuxt-link to="/">
+      <NuxtLink to="/">
         トップページはこちら
-      </nuxt-link>
+      </NuxtLink>
     </p>
   </div>
 </template>
 
-<script>
-export default {
-  layout: 'blog',
-  /* eslint-disable-next-line vue/require-prop-types */
-  props: ['error'] // エラーページ用のカスタムレイアウトを指定できます
-}
+<script setup>
+const props = defineProps({
+  error: Object
+})
+
+const handleError = () => clearError({ redirect: '/' })
+
+definePageMeta({
+  layout: 'default'
+})
 </script>

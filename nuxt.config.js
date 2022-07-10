@@ -1,45 +1,28 @@
-export default {
-  mode: 'universal',
-  workbox: {
-    dev: false // 開発環境でもPWAできるように
-  },
-  generate: {
-    subFolders: false,
-    fallback: true
-  },
-  router: {
-    base: process.env.BASE_DIR || '/',
-    extendRoutes (routes /*, resolve */) {
-      const aliases = routes.map(route => ({
-        path: /\/$/.test(route.path)
-          ? `${route.path}index.html`
-          : `${route.path}.html`,
-        alias: route.path,
-        component: route.component
-      }))
-      routes.push(...aliases)
-    }
-  },
-  hooks: {
-    generate: {
-      extendRoutes (routes) {
-        const filtered = routes.filter(page => !/\.html$/.test(page.route))
-        routes.splice(0, routes.length, ...filtered)
-      }
-    }
-  },
+import { defineNuxtConfig } from 'nuxt'
+
+export default defineNuxtConfig({
   srcDir: 'client/',
+  ssr: false,
+  // mode: 'spa',
+  // workbox: {
+  //   dev: false // 開発環境でもPWAできるように
+  // },
+  // generate: {
+  //   subFolders: false,
+  //   fallback: true
+  // },
+  // hooks: {
+  //   'pages:extend' (routes) {
+  //   },
+  //   generate: {
+  //   }
+  // },
   modules: [
     '@nuxtjs/google-adsense',
     '@nuxtjs/google-gtag',
     '@nuxtjs/sitemap',
-    '@nuxtjs/pwa',
-    '@aceforth/nuxt-optimized-images'
+    '@nuxt/image-edge'
   ],
-  optimizedImages: {
-    optimizeImages: true,
-    optimizeImagesInDev: true
-  },
   sitemap: {
     hostname: 'https://korosuke613.github.io',
     exclude: []
@@ -56,7 +39,7 @@ export default {
     short_name: 'K613',
     lang: 'ja'
   },
-  head: {
+  meta: {
     title: 'Korosuke613@miyazaki',
     titleTemplate: '%s - Korosuke613@miyazaki',
     meta: [
@@ -103,9 +86,7 @@ export default {
           'sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd',
         crossorigin: 'anonymous',
         defer: true
-      },
-      { src: '/js/lightbox.min.js', defer: true },
-      { src: '/js/page_scroll.js', defer: true }
+      }
     ],
     link: [
       {
@@ -137,4 +118,4 @@ export default {
     '@/assets/css/font_change.css',
     '@/assets/css/link.css'
   ]
-}
+})
