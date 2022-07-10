@@ -78,12 +78,12 @@
         </a>
       </li>
     </ul>
-    <nuxt-link to="/dormitory_introduction">
+    <NuxtLink to="/dormitory_introduction">
       宮崎大学国際交流宿舎の紹介ページ(2017)
-    </nuxt-link>
-    <nuxt-link to="/dormitory">
+    </NuxtLink>
+    <NuxtLink to="/dormitory">
       宮崎大学国際交流宿舎の寮生向けページ(2017)
-    </nuxt-link>
+    </NuxtLink>
     <br>
     <a
       href="http://earth.cs.miyazaki-u.ac.jp/"

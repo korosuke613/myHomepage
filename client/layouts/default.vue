@@ -1,10 +1,12 @@
 <template>
   <div>
-    <Header />
+    <!-- <Header /> -->
     <div class="container" style="background:#ebebeb;height: 100%;">
-      <nuxt />
+      <Header />
+      <slot />
       <div style="margin-bottom:30px;" />
     </div>
+    <!-- <Footer /> -->
     <Footer />
   </div>
 </template>

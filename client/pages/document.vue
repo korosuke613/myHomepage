@@ -27,29 +27,32 @@
       </div>
     </div>
     <div class="col-xs-12 text-right">
-      <nuxt-link to="/">
+      <NuxtLink to="/">
         <em>戻る</em>
-      </nuxt-link>
+      </NuxtLink>
     </div>
   </div>
 </template>
+
+<script setup>
+definePageMeta({
+  title: 'Document',
+  description: '今まで書いた何かをまとめたページです。',
+})
+</script>
+
 <script>
 import hatena from '@/assets/json/hatena.json'
 import { other } from '@/assets/json/DocumentsData.js'
 import Meta from '~/assets/mixins/meta'
+
 export default {
   mixins: [Meta],
-  layout: 'default',
 
   data () {
     return {
       hatena,
-      other,
-      meta: {
-        title: 'Document',
-        description: '今まで書いた何かをまとめたページです。',
-        url: this.$nuxt.$route.path
-      }
+      other
     }
   }
 }
