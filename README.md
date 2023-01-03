@@ -1,4 +1,8 @@
 # korosuke613.github.io  
+
+> **Warning**<br>
+> This project is deprecated. See new project ([korosuke613/homepage-2nd](https://github.com/korosuke613/homepage-2nd)).
+
 [![CircleCI](https://circleci.com/gh/korosuke613/myHomepage/tree/main.svg?style=svg)](https://circleci.com/gh/korosuke613/myHomepage/tree/main)
 
 平木場風太のホームページです。
