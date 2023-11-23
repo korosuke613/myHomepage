@@ -93,7 +93,10 @@ export default {
         title: '宮崎大学国際交流宿舎の紹介(2017)',
         description: '宮崎大学の寮の一つ、国際交流宿舎を紹介するページです。',
         url: this.$nuxt.$route.path
-      }
+      },
+      link: [
+        { rel: 'canonical', href: 'https://korosuke613.dev/posts/dormitory_introduction/' }
+      ]
     }
   }
 }

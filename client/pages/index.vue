@@ -46,7 +46,10 @@ export default {
   head () {
     return {
       title: 'Korosuke613@miyazaki',
-      titleTemplate: ''
+      titleTemplate: '',
+      link: [
+        { rel: 'canonical', href: 'https://korosuke613.dev' }
+      ]
     }
   }
 }
