@@ -16,7 +16,8 @@ export default {
         },
         { hid: 'og:url', property: 'og:url', content: 'https://korosuke613.github.io' + this.meta.url }
 
-      ]
+      ],
+      link: this.link
     }
   }
 }
